@@ -1,0 +1,38 @@
+/* stylesheet for normal page */
+
+.heading {
+    color: #1616e2;
+    text-align: center;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    background-color: #8c8c8c;
+    color: black;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+}
+
+.link:hover {
+    background-color: #bab4b4;
+}
+
+.links-list {
+    margin: 0;
+    padding: 0;
+}
+
+.link-item {
+    margin-bottom: 0.5rem;
+}
+
+.footer {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: solid 0.1rem black;
+    border-bottom: solid 0.1rem black;
+    text-align: center;
+}
