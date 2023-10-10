@@ -93,3 +93,14 @@ body {
     font-size: 0.8rem;
     color: #1616e2;
 }
+
+.divider {
+    margin-bottom: 2rem;
+    border-bottom: solid 0.1rem black;
+}
+
+.notes {
+    margin-top: 1rem;
+    font-style: italic;
+    font-size: 1.1rem;
+}

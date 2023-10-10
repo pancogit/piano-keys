@@ -107,6 +107,7 @@ async function fetchData() {
                             <div class="white-key key-b last-key"></div>
                         </div>
                     </div>
+                    <div class="notes">Notes: C, D#, F, F#, G, A#</div>
                 </div>
             </div>
         </div>
@@ -170,8 +171,30 @@ function createRowsHTML(pianoHTML) {
 
         octaves.forEach((octave) => box.append(octave));
 
+        let notLastElement = i < numberOfElements - 1;
+        let rightLeftHandsParsed = i % 2 != 0;
+
         // set name for element
         name.textContent = jsonObject.elements[i].name;
+
+        // add divider and notes after every right
+        // and left hand for given element
+        if (rightLeftHandsParsed) {
+            if (notLastElement) row.classList.add("divider");
+
+            // create div for notes
+            const notes = document.createElement("div");
+            notes.className = "notes";
+
+            card.append(notes);
+
+            notes.textContent = "Notes: ";
+
+            // set all individual notes for element
+            jsonObject.elements[i].keys.forEach(
+                (key) => (notes.textContent += `${key} `)
+            );
+        }
     }
 }
 
