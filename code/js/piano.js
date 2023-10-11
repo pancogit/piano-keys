@@ -4,6 +4,9 @@
 
 let jsonObject;
 
+// current index for piano key while searching through all piano octaves
+let currentKeyIndex = 0;
+
 // temporarily index for fingering number of current element
 let fingeringIndex;
 
@@ -147,10 +150,6 @@ function createRowsHTML(pianoHTML) {
         const name = document.createElement("h2");
         const box = document.createElement("div");
 
-        // start counting index for fingering number
-        // of current element from the beginning
-        fingeringIndex = 0;
-
         const octaves = [
             createOctaveHTML(i),
             createOctaveHTML(i),
@@ -171,30 +170,40 @@ function createRowsHTML(pianoHTML) {
 
         octaves.forEach((octave) => box.append(octave));
 
-        let notLastElement = i < numberOfElements - 1;
-        let rightLeftHandsParsed = i % 2 != 0;
-
         // set name for element
         name.textContent = jsonObject.elements[i].name;
 
         // add divider and notes after every right
         // and left hand for given element
-        if (rightLeftHandsParsed) {
-            if (notLastElement) row.classList.add("divider");
+        createNotesHTML(i, row, card);
 
-            // create div for notes
-            const notes = document.createElement("div");
-            notes.className = "notes";
+        // for each played key, append appropriate css class
+        // for playing and fingering number
+        addFingering(i, octaves);
+    }
+}
 
-            card.append(notes);
+// add divider and notes after every right
+// and left hand for given element
+function createNotesHTML(elementIndex, row, card) {
+    let notLastElement = elementIndex < jsonObject.elements.length - 1;
+    let rightLeftHandsParsed = elementIndex % 2 != 0;
 
-            notes.textContent = "Notes: ";
+    if (rightLeftHandsParsed) {
+        if (notLastElement) row.classList.add("divider");
 
-            // set all individual notes for element
-            jsonObject.elements[i].keys.forEach(
-                (key) => (notes.textContent += `${key} `)
-            );
-        }
+        // create div for notes
+        const notes = document.createElement("div");
+        notes.className = "notes";
+
+        card.append(notes);
+
+        notes.textContent = "Notes: ";
+
+        // set all individual notes for element
+        jsonObject.elements[elementIndex].keys.forEach(
+            (key) => (notes.textContent += `${key} `)
+        );
     }
 }
 
@@ -245,171 +254,104 @@ function createOctaveHTML(currentElement, isLastOctave = false) {
     octave.append(keyAsharp);
     octave.append(keyB);
 
-    // for each played key, append appropriate css class
-    // for playing and fingering number
-    addFingering({
-        isLastOctave,
-        currentElement,
-        keyC,
-        keyCsharp,
-        keyD,
-        keyDsharp,
-        keyE,
-        keyF,
-        keyFsharp,
-        keyG,
-        keyGsharp,
-        keyA,
-        keyAsharp,
-        keyB,
-    });
-
     return octave;
 }
 
 // for each played key, append appropriate css class
 // for playing and fingering number
-function addFingering(keys) {
-    const {
-        isLastOctave,
-        currentElement,
-        keyC,
-        keyCsharp,
-        keyD,
-        keyDsharp,
-        keyE,
-        keyF,
-        keyFsharp,
-        keyG,
-        keyGsharp,
-        keyA,
-        keyAsharp,
-        keyB,
-    } = keys;
+function addFingering(currentElement, octaves) {
+    const allKeys = [];
 
-    jsonObject.elements[currentElement].keys.forEach((key, index) => {
-        // create fingering number and add current number to it
-        const number = document.createElement("div");
+    currentKeyIndex = 0;
+    fingeringIndex = 0;
 
-        number.className = "number";
-        number.textContent =
-            jsonObject.elements[currentElement].fingering[fingeringIndex++];
-
-        switch (key) {
-            case "C": {
-                // if it's last octave, then just mark key
-                // in octave to complete full piano scale
-                // otherwise, if it's not last octave, then
-                // just normally mark each key from scale
-                // also nest fingering number inside piano key
-                if ((isLastOctave && !index) || !isLastOctave) {
-                    keyC.classList.add("play");
-                    keyC.append(number);
-                }
-
-                break;
-            }
-
-            case "C#": {
-                if ((isLastOctave && !index) || !isLastOctave) {
-                    keyCsharp.classList.add("play");
-                    keyCsharp.append(number);
-                }
-
-                break;
-            }
-
-            case "D": {
-                if ((isLastOctave && !index) || !isLastOctave) {
-                    keyD.classList.add("play");
-                    keyD.append(number);
-                }
-
-                break;
-            }
-
-            case "D#": {
-                if ((isLastOctave && !index) || !isLastOctave) {
-                    keyDsharp.classList.add("play");
-                    keyDsharp.append(number);
-                }
-
-                break;
-            }
-
-            case "E": {
-                if ((isLastOctave && !index) || !isLastOctave) {
-                    keyE.classList.add("play");
-                    keyE.append(number);
-                }
-
-                break;
-            }
-
-            case "F": {
-                if ((isLastOctave && !index) || !isLastOctave) {
-                    keyF.classList.add("play");
-                    keyF.append(number);
-                }
-
-                break;
-            }
-
-            case "F#": {
-                if ((isLastOctave && !index) || !isLastOctave) {
-                    keyFsharp.classList.add("play");
-                    keyFsharp.append(number);
-                }
-
-                break;
-            }
-
-            case "G": {
-                if ((isLastOctave && !index) || !isLastOctave) {
-                    keyG.classList.add("play");
-                    keyG.append(number);
-                }
-
-                break;
-            }
-
-            case "G#": {
-                if ((isLastOctave && !index) || !isLastOctave) {
-                    keyGsharp.classList.add("play");
-                    keyGsharp.append(number);
-                }
-
-                break;
-            }
-
-            case "A": {
-                if ((isLastOctave && !index) || !isLastOctave) {
-                    keyA.classList.add("play");
-                    keyA.append(number);
-                }
-
-                break;
-            }
-
-            case "A#": {
-                if ((isLastOctave && !index) || !isLastOctave) {
-                    keyAsharp.classList.add("play");
-                    keyAsharp.append(number);
-                }
-
-                break;
-            }
-
-            case "B": {
-                if ((isLastOctave && !index) || !isLastOctave) {
-                    keyB.classList.add("play");
-                    keyB.append(number);
-                }
-
-                break;
-            }
-        }
+    // get all keys from each octave and save them into array
+    octaves.forEach((octave) => {
+        octave.childNodes.forEach((keyNode) => allKeys.push(keyNode));
     });
+
+    // loop through two octaves to set played keys and fingering numbers
+    for (let twoOctaves = 0; twoOctaves < 2; twoOctaves++) {
+        jsonObject.elements[currentElement].keys.forEach((key) =>
+            keyFingering(currentElement, key, allKeys)
+        );
+    }
+
+    // set played keys and fingering number for last key in all octaves
+    // last key in all octaves is first scale key
+    keyFingering(
+        currentElement,
+        jsonObject.elements[currentElement].keys[0],
+        allKeys
+    );
+}
+
+function keyFingering(currentElement, key, allKeys) {
+    if (!isKeyCorrect(currentElement, key)) return;
+
+    // create fingering number and add current number to it
+    const number = document.createElement("div");
+
+    number.className = "number";
+    number.textContent =
+        jsonObject.elements[currentElement].fingering[fingeringIndex++];
+
+    let keyLetter = `key-${key.toLowerCase()}`;
+
+    // find first key letter from all octaves and
+    // then continue to search for next key letter
+    for (let i = currentKeyIndex; i < allKeys.length; i++) {
+        // increment index for keys from all octaves
+        // after every iteration
+        currentKeyIndex++;
+
+        // when key letter is found, then stop search
+        // the next outer loop will continue to search
+        // for the next key letter
+        // add played class to the dom node when key
+        // is found and nest number inside played key
+        if (allKeys[i].classList.contains(keyLetter)) {
+            allKeys[i].classList.add("play");
+            allKeys[i].append(number);
+
+            break;
+        }
+    }
+}
+
+function isKeyCorrect(currentElement, key) {
+    let keysNames = [
+        "C",
+        "C#",
+        "D",
+        "D#",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "G#",
+        "A",
+        "A#",
+        "B",
+    ];
+
+    let correctKey = false;
+
+    for (let i = 0; i < keysNames.length; i++) {
+        if (keysNames[i] == key) {
+            correctKey = true;
+
+            break;
+        }
+    }
+
+    if (!correctKey) {
+        console.error(
+            `Piano key for "${jsonObject.elements[currentElement].name}" is not correct: ${key}`
+        );
+    }
+
+    return correctKey;
 }
 
 // create page and add all elements on it
