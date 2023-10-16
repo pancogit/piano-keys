@@ -1,0 +1,20 @@
+{
+    "title": "Title",
+    "elements": [
+        {
+            "name": "chord",
+            "chords": [
+                {
+                    "name": "name",
+                    "keys": ["C", "D#", "F", "F#", "G", "A#"],
+                    "fingering": [1, 2, 3, 4, 1, 2, 1, 2, 3, 4, 1, 2, 3]
+                },
+                {
+                    "name": "name",
+                    "keys": ["C", "D#", "F", "F#", "G", "A#"],
+                    "fingering": [1, 2, 3, 4, 1, 2, 1, 2, 3, 4, 1, 2, 3]
+                }
+            ]
+        }
+    ]
+}

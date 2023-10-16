@@ -1,0 +1,77 @@
+{
+    "title": "C chords",
+    "elements": [
+        {
+            "name": "C major chord",
+            "chords": [
+                {
+                    "name": "C - right hand",
+                    "keys": ["C", "E", "G"],
+                    "fingering": [1, 3, 5]
+                },
+                {
+                    "name": "C / E : 1st inversion - right hand",
+                    "keys": ["E", "G", "C"],
+                    "fingering": [1, 2, 5]
+                },
+                {
+                    "name": "C / G : 2nd inversion - right hand",
+                    "keys": ["G", "C", "E"],
+                    "fingering": [1, 3, 5]
+                },
+
+                {
+                    "name": "C - left hand",
+                    "keys": ["C", "E", "G"],
+                    "fingering": [5, 3, 1]
+                },
+                {
+                    "name": "C / E : 1st inversion - left hand",
+                    "keys": ["E", "G", "C"],
+                    "fingering": [5, 3, 1]
+                },
+                {
+                    "name": "C / G : 2nd inversion - left hand",
+                    "keys": ["G", "C", "E"],
+                    "fingering": [5, 2, 1]
+                }
+            ]
+        },
+        {
+            "name": "C major chord",
+            "chords": [
+                {
+                    "name": "C - right hand",
+                    "keys": ["C", "E", "G"],
+                    "fingering": [1, 3, 5]
+                },
+                {
+                    "name": "C / E : 1st inversion - right hand",
+                    "keys": ["E", "G", "C"],
+                    "fingering": [1, 2, 5]
+                },
+                {
+                    "name": "C / G : 2nd inversion - right hand",
+                    "keys": ["G", "C", "E"],
+                    "fingering": [1, 3, 5]
+                },
+
+                {
+                    "name": "C - left hand",
+                    "keys": ["C", "E", "G"],
+                    "fingering": [5, 3, 1]
+                },
+                {
+                    "name": "C / E : 1st inversion - left hand",
+                    "keys": ["E", "G", "C"],
+                    "fingering": [5, 3, 1]
+                },
+                {
+                    "name": "C / G : 2nd inversion - left hand",
+                    "keys": ["G", "C", "E"],
+                    "fingering": [5, 2, 1]
+                }
+            ]
+        }
+    ]
+}

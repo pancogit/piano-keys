@@ -1,5 +1,5 @@
-// javascript file for piano
-// add names for piano scales / chords, etc. and fill played keys with blue color
+// javascript file for piano chords
+// add names for piano chords and fill played keys with blue color
 // parse json configuration file with relevant informations and fill them on page
 
 let jsonObject;
@@ -30,16 +30,17 @@ async function fetchData() {
 }
 
 /*
-    create html for piano scale
+    create html for piano chords
 
-    html template example for one piano scale:
+    html template example for one piano chord:
 
     <main>
         <div class="piano">
-            <h1 class="kind">Minor Blues Scales</h1>
+            <h1 class="kind">C chords</h1>
+            <h2 class="chord">C major chord</h2>
             <div class="row">
                 <div class="card">
-                    <h2 class="name">Cm Pentatonic Blues</h2>
+                    <h3 class="name">C - right hand</h3>
                     <div class="box">
                         <div class="octave">
                             <div class="white-key key-c play">
@@ -47,56 +48,22 @@ async function fetchData() {
                             </div>
                             <div class="black-key key-c#"></div>
                             <div class="white-key key-d"></div>
-                            <div class="black-key key-d# play">
-                                <div class="number">2</div>
-                            </div>
-                            <div class="white-key key-e"></div>
-                            <div class="white-key key-f play">
+                            <div class="black-key key-d#"></div>
+                            <div class="white-key key-e play">
                                 <div class="number">3</div>
                             </div>
-                            <div class="black-key key-f# play">
-                                <div class="number">4</div>
-                            </div>
+                            <div class="white-key key-f"></div>
+                            <div class="black-key key-f#"></div>
                             <div class="white-key key-g play">
-                                <div class="number">1</div>
+                                <div class="number">5</div>
                             </div>
                             <div class="black-key key-g#"></div>
                             <div class="white-key key-a"></div>
-                            <div class="black-key key-a# play">
-                                <div class="number">2</div>
-                            </div>
+                            <div class="black-key key-a#"></div>
                             <div class="white-key key-b"></div>
                         </div>
                         <div class="octave">
-                            <div class="white-key key-c play">
-                                <div class="number">1</div>
-                            </div>
-                            <div class="black-key key-c#"></div>
-                            <div class="white-key key-d"></div>
-                            <div class="black-key key-d# play">
-                                <div class="number">2</div>
-                            </div>
-                            <div class="white-key key-e"></div>
-                            <div class="white-key key-f play">
-                                <div class="number">3</div>
-                            </div>
-                            <div class="black-key key-f# play">
-                                <div class="number">4</div>
-                            </div>
-                            <div class="white-key key-g play">
-                                <div class="number">1</div>
-                            </div>
-                            <div class="black-key key-g#"></div>
-                            <div class="white-key key-a"></div>
-                            <div class="black-key key-a# play">
-                                <div class="number">2</div>
-                            </div>
-                            <div class="white-key key-b"></div>
-                        </div>
-                        <div class="octave">
-                            <div class="white-key key-c play">
-                                <div class="number">3</div>
-                            </div>
+                            <div class="white-key key-c"></div>
                             <div class="black-key key-c#"></div>
                             <div class="white-key key-d"></div>
                             <div class="black-key key-d#"></div>
@@ -110,13 +77,13 @@ async function fetchData() {
                             <div class="white-key key-b last-key"></div>
                         </div>
                     </div>
-                    <div class="notes">Notes: C, D#, F, F#, G, A#</div>
+                    <div class="notes">Notes: C, E, G</div>
                 </div>
             </div>
         </div>
     </main>
 */
-function createScaleHTML() {
+function createChordHTML() {
     // create html elements
     const main = document.createElement("main");
     const piano = document.createElement("div");
@@ -142,69 +109,78 @@ function createScaleHTML() {
 
 function createRowsHTML(pianoHTML) {
     const numberOfElements = jsonObject.elements.length;
+    let numberOfChords;
+    let row, chord;
 
     // for each fetched element, create separated html element
     for (let i = 0; i < numberOfElements; i++) {
-        const row = document.createElement("div");
-        const card = document.createElement("div");
-        const name = document.createElement("h2");
-        const box = document.createElement("div");
+        numberOfChords = jsonObject.elements[i].chords.length;
+        chord = document.createElement("h2");
 
-        const octaves = [
-            createOctaveHTML(),
-            createOctaveHTML(),
-            createOctaveHTML(true),
-        ];
+        chord.className = "chord";
+        pianoHTML.append(chord);
 
-        // add classes to html elements
-        row.className = "row";
-        card.className = "card";
-        name.className = "name";
-        box.className = "box";
+        // create html for each chord
+        for (let j = 0; j < numberOfChords; j++) {
+            const card = document.createElement("div");
+            const name = document.createElement("h3");
+            const box = document.createElement("div");
 
-        // append and nest html elements to form tree
-        pianoHTML.append(row);
-        row.append(card);
-        card.append(name);
-        card.append(box);
+            row = document.createElement("div");
 
-        octaves.forEach((octave) => box.append(octave));
+            // create two octaves for chords because they can
+            // be split between two octaves like B major
+            const octaves = [createOctaveHTML(), createOctaveHTML(true)];
 
-        // set name for element
-        name.textContent = jsonObject.elements[i].name;
+            // add classes to html elements
+            row.className = "row";
+            card.className = "card";
+            name.className = "name";
+            box.className = "box";
 
-        // add divider and notes after every right
-        // and left hand for given element
-        createNotesHTML(i, row, card);
+            // append and nest html elements to form tree
+            pianoHTML.append(row);
+            row.append(card);
+            card.append(name);
+            card.append(box);
 
-        // for each played key, append appropriate css class
-        // for playing and fingering number
-        addFingering(i, octaves);
+            octaves.forEach((octave) => box.append(octave));
+
+            // set heading for all chords
+            chord.textContent = jsonObject.elements[i].name;
+
+            // set name for individual chord
+            name.textContent = jsonObject.elements[i].chords[j].name;
+
+            // add notes after every chord
+            createNotesHTML(i, j, card);
+
+            // for each played key, append appropriate css class
+            // for playing and fingering number
+            addFingering(i, j, octaves);
+        }
+
+        let notLastElement = i < numberOfElements - 1;
+
+        // add divider after each group of chords
+        if (notLastElement) row.classList.add("divider");
     }
 }
 
-// add divider and notes after every right
-// and left hand for given element
-function createNotesHTML(elementIndex, row, card) {
-    let notLastElement = elementIndex < jsonObject.elements.length - 1;
-    let rightLeftHandsParsed = elementIndex % 2 != 0;
+// add notes after every chord
+function createNotesHTML(elementIndex, chordIndex, card) {
+    // create div for notes
+    const notes = document.createElement("div");
+    notes.className = "notes";
 
-    if (rightLeftHandsParsed) {
-        if (notLastElement) row.classList.add("divider");
+    card.append(notes);
 
-        // create div for notes
-        const notes = document.createElement("div");
-        notes.className = "notes";
+    notes.textContent = "Notes: ";
 
-        card.append(notes);
-
-        notes.textContent = "Notes: ";
-
-        // set all individual notes for element
-        jsonObject.elements[elementIndex].keys.forEach(
-            (key) => (notes.textContent += `${key} `)
-        );
-    }
+    // set all individual notes for element
+    jsonObject.elements[elementIndex].chords[chordIndex].keys.forEach(
+        (key) => (notes.textContent += `${key} `)
+    );
 }
 
 function createOctaveHTML(isLastOctave = false) {
@@ -259,7 +235,7 @@ function createOctaveHTML(isLastOctave = false) {
 
 // for each played key, append appropriate css class
 // for playing and fingering number
-function addFingering(currentElement, octaves) {
+function addFingering(currentElement, currentChord, octaves) {
     const allKeys = [];
 
     currentKeyIndex = 0;
@@ -270,31 +246,23 @@ function addFingering(currentElement, octaves) {
         octave.childNodes.forEach((keyNode) => allKeys.push(keyNode));
     });
 
-    // loop through two octaves to set played keys and fingering numbers
-    for (let twoOctaves = 0; twoOctaves < 2; twoOctaves++) {
-        jsonObject.elements[currentElement].keys.forEach((key) =>
-            keyFingering(currentElement, key, allKeys)
-        );
-    }
-
-    // set played keys and fingering number for last key in all octaves
-    // last key in all octaves is first scale key
-    keyFingering(
-        currentElement,
-        jsonObject.elements[currentElement].keys[0],
-        allKeys
+    // set played keys and fingering numbers for only one octave
+    jsonObject.elements[currentElement].chords[currentChord].keys.forEach(
+        (key) => keyFingering(currentElement, currentChord, key, allKeys)
     );
 }
 
-function keyFingering(currentElement, key, allKeys) {
-    if (!isKeyCorrect(currentElement, key)) return;
+function keyFingering(currentElement, currentChord, key, allKeys) {
+    if (!isKeyCorrect(currentElement, currentChord, key)) return;
 
     // create fingering number and add current number to it
     const number = document.createElement("div");
 
     number.className = "number";
     number.textContent =
-        jsonObject.elements[currentElement].fingering[fingeringIndex++];
+        jsonObject.elements[currentElement].chords[currentChord].fingering[
+            fingeringIndex++
+        ];
 
     let keyLetter = `key-${key.toLowerCase()}`;
 
@@ -319,7 +287,7 @@ function keyFingering(currentElement, key, allKeys) {
     }
 }
 
-function isKeyCorrect(currentElement, key) {
+function isKeyCorrect(currentElement, currentChord, key) {
     let keysNames = [
         "C",
         "C#",
@@ -347,7 +315,7 @@ function isKeyCorrect(currentElement, key) {
 
     if (!correctKey) {
         console.error(
-            `Piano key for "${jsonObject.elements[currentElement].name}" is not correct: ${key}`
+            `Piano key for "${jsonObject.elements[currentElement].chords[currentChord].name}" is not correct: ${key}`
         );
     }
 
@@ -361,7 +329,7 @@ function setDocumentTitle() {
 // create page and add all elements on it
 async function createPage() {
     await fetchData();
-    createScaleHTML();
+    createChordHTML();
     setDocumentTitle();
 }
 

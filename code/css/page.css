@@ -28,6 +28,16 @@
     margin-bottom: 0.5rem;
 }
 
+.inline-link {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.inline-link .link {
+    width: 3rem;
+    text-align: center;
+}
+
 .footer {
     margin-top: 2rem;
     padding-top: 1rem;

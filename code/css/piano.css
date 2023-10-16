@@ -20,6 +20,12 @@ body {
     font-size: 1.6rem;
 }
 
+.chord {
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+    font-size: 1.4rem;
+}
+
 .card {
     display: inline-block;
     margin-right: 2rem;
