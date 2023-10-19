@@ -3,6 +3,7 @@
     "elements": [
         {
             "name": "C major chord",
+            "letter": "C",
             "chords": [
                 {
                     "name": "C - right hand",
@@ -38,38 +39,719 @@
             ]
         },
         {
-            "name": "C major chord",
+            "name": "C chords with alternative bass notes",
+            "letter": "C alt",
             "chords": [
                 {
-                    "name": "C - right hand",
-                    "keys": ["C", "E", "G"],
+                    "name": "C / B - right hand",
+                    "keys": ["B", "C", "E", "G"],
+                    "fingering": [1, 2, 3, 5]
+                },
+                {
+                    "name": "C / A# - right hand",
+                    "keys": ["A#", "C", "E", "G"],
+                    "fingering": [1, 2, 3, 5]
+                },
+                {
+                    "name": "C / A - right hand",
+                    "keys": ["A", "C", "E", "G"],
+                    "fingering": [1, 2, 3, 5]
+                },
+                {
+                    "name": "C / G# - right hand",
+                    "keys": ["G#", "C", "E", "G"],
+                    "fingering": [1, 2, 3, 5]
+                },
+                {
+                    "name": "C / D - right hand",
+                    "keys": ["D", "E", "G", "C"],
+                    "fingering": [1, 2, 3, 5]
+                },
+                {
+                    "name": "C / F - right hand",
+                    "keys": ["F", "G", "C", "E"],
+                    "fingering": [1, 2, 3, 5]
+                },
+
+                {
+                    "name": "C / B - left hand",
+                    "keys": ["B", "C", "E", "G"],
+                    "fingering": [5, 3, 2, 1]
+                },
+                {
+                    "name": "C / A# - left hand",
+                    "keys": ["A#", "C", "E", "G"],
+                    "fingering": [5, 3, 2, 1]
+                },
+                {
+                    "name": "C / A - left hand",
+                    "keys": ["A", "C", "E", "G"],
+                    "fingering": [5, 3, 2, 1]
+                },
+                {
+                    "name": "C / G# - left hand",
+                    "keys": ["G#", "C", "E", "G"],
+                    "fingering": [5, 3, 2, 1]
+                },
+                {
+                    "name": "C / D - left hand",
+                    "keys": ["D", "E", "G", "C"],
+                    "fingering": [5, 3, 2, 1]
+                },
+                {
+                    "name": "C / F - left hand",
+                    "keys": ["F", "G", "C", "E"],
+                    "fingering": [5, 3, 2, 1]
+                }
+            ]
+        },
+        {
+            "name": "C minor chord",
+            "letter": "Cm",
+            "chords": [
+                {
+                    "name": "Cm - right hand",
+                    "keys": ["C", "D#", "G"],
                     "fingering": [1, 3, 5]
                 },
                 {
-                    "name": "C / E : 1st inversion - right hand",
-                    "keys": ["E", "G", "C"],
-                    "fingering": [1, 2, 5]
+                    "name": "Cm / D# : 1st inversion - right hand",
+                    "keys": ["D#", "G", "C"],
+                    "fingering": [1, 3, 5]
                 },
                 {
-                    "name": "C / G : 2nd inversion - right hand",
-                    "keys": ["G", "C", "E"],
+                    "name": "Cm / G : 2nd inversion - right hand",
+                    "keys": ["G", "C", "D#"],
                     "fingering": [1, 3, 5]
                 },
 
                 {
-                    "name": "C - left hand",
-                    "keys": ["C", "E", "G"],
+                    "name": "Cm - left hand",
+                    "keys": ["C", "D#", "G"],
                     "fingering": [5, 3, 1]
                 },
                 {
-                    "name": "C / E : 1st inversion - left hand",
-                    "keys": ["E", "G", "C"],
+                    "name": "Cm / D# : 1st inversion - left hand",
+                    "keys": ["D#", "G", "C"],
                     "fingering": [5, 3, 1]
                 },
                 {
-                    "name": "C / G : 2nd inversion - left hand",
-                    "keys": ["G", "C", "E"],
+                    "name": "Cm / G : 2nd inversion - left hand",
+                    "keys": ["G", "C", "D#"],
                     "fingering": [5, 2, 1]
+                }
+            ]
+        },
+        {
+            "name": "Cm chords with alternative bass notes",
+            "letter": "Cm alt",
+            "chords": [
+                {
+                    "name": "Cm / A# - right hand",
+                    "keys": ["A#", "C", "D#", "G"],
+                    "fingering": [1, 2, 3, 5]
+                },
+                {
+                    "name": "Cm / A - right hand",
+                    "keys": ["A", "C", "D#", "G"],
+                    "fingering": [1, 2, 3, 5]
+                },
+                {
+                    "name": "Cm / G# - right hand",
+                    "keys": ["G#", "C", "D#", "G"],
+                    "fingering": [1, 2, 3, 5]
+                },
+
+                {
+                    "name": "Cm / A# - left hand",
+                    "keys": ["A#", "C", "D#", "G"],
+                    "fingering": [5, 3, 2, 1]
+                },
+                {
+                    "name": "Cm / A - left hand",
+                    "keys": ["A", "C", "D#", "G"],
+                    "fingering": [5, 3, 2, 1]
+                },
+                {
+                    "name": "Cm / G# - left hand",
+                    "keys": ["G#", "C", "D#", "G"],
+                    "fingering": [5, 3, 2, 1]
+                }
+            ]
+        },
+        {
+            "name": "C 7th chord",
+            "letter": "C7",
+            "chords": [
+                {
+                    "name": "C7 - right hand",
+                    "keys": ["C", "E", "G", "A#"],
+                    "fingering": [1, 2, 3, 5]
+                },
+                {
+                    "name": "C7 / E : 1st inversion - right hand",
+                    "keys": ["E", "G", "A#", "C"],
+                    "fingering": []
+                },
+                {
+                    "name": "C7 / G : 2nd inversion - right hand",
+                    "keys": ["G", "A#", "C", "E"],
+                    "fingering": []
+                },
+                {
+                    "name": "C7 / A# : 3rd inversion - right hand",
+                    "keys": ["A#", "C", "E", "G"],
+                    "fingering": []
+                },
+
+                {
+                    "name": "C7 - left hand",
+                    "keys": ["C", "E", "G", "A#"],
+                    "fingering": [5, 3, 2, 1]
+                },
+                {
+                    "name": "C7 / E : 1st inversion - left hand",
+                    "keys": ["E", "G", "A#", "C"],
+                    "fingering": []
+                },
+                {
+                    "name": "C7 / G : 2nd inversion - left hand",
+                    "keys": ["G", "A#", "C", "E"],
+                    "fingering": []
+                },
+                {
+                    "name": "C7 / A# : 3rd inversion - left hand",
+                    "keys": ["A#", "C", "E", "G"],
+                    "fingering": []
+                }
+            ]
+        },
+        {
+            "name": "C7 chords with alternative bass notes",
+            "letter": "C7 alt",
+            "chords": [
+                {
+                    "name": "C7 / A - right hand",
+                    "keys": ["A", "C", "E", "G", "A#"],
+                    "fingering": []
+                },
+                {
+                    "name": "C7 / F - right hand",
+                    "keys": ["F", "C", "E", "G", "A#"],
+                    "fingering": []
+                },
+                {
+                    "name": "C7 / D - right hand",
+                    "keys": ["D", "E", "G", "A#", "C"],
+                    "fingering": []
+                },
+
+                {
+                    "name": "C7 / A - left hand",
+                    "keys": ["A", "C", "E", "G", "A#"],
+                    "fingering": []
+                },
+                {
+                    "name": "C7 / F - left hand",
+                    "keys": ["F", "C", "E", "G", "A#"],
+                    "fingering": []
+                },
+                {
+                    "name": "C7 / D - left hand",
+                    "keys": ["D", "E", "G", "A#", "C"],
+                    "fingering": []
+                }
+            ]
+        },
+        {
+            "name": "C minor 7th chord",
+            "letter": "Cm7",
+            "chords": [
+                {
+                    "name": "Cm7 - right hand",
+                    "keys": ["C", "D#", "G", "A#"],
+                    "fingering": [1, 2, 3, 5]
+                },
+                {
+                    "name": "Cm7 / D# : 1st inversion - right hand",
+                    "keys": ["D#", "G", "A#", "C"],
+                    "fingering": []
+                },
+                {
+                    "name": "Cm7 / G : 2nd inversion - right hand",
+                    "keys": ["G", "A#", "C", "D#"],
+                    "fingering": []
+                },
+                {
+                    "name": "Cm7 / A# : 3rd inversion - right hand",
+                    "keys": ["A#", "C", "D#", "G"],
+                    "fingering": []
+                },
+
+                {
+                    "name": "Cm7 - left hand",
+                    "keys": ["C", "D#", "G", "A#"],
+                    "fingering": [5, 3, 2, 1]
+                },
+                {
+                    "name": "Cm7 / D# : 1st inversion - left hand",
+                    "keys": ["D#", "G", "A#", "C"],
+                    "fingering": []
+                },
+                {
+                    "name": "Cm7 / G : 2nd inversion - left hand",
+                    "keys": ["G", "A#", "C", "D#"],
+                    "fingering": []
+                },
+                {
+                    "name": "Cm7 / A# : 3rd inversion - left hand",
+                    "keys": ["A#", "C", "D#", "G"],
+                    "fingering": []
+                }
+            ]
+        },
+        {
+            "name": "Cm7 chords with alternative bass notes",
+            "letter": "Cm7 alt",
+            "chords": [
+                {
+                    "name": "Cm7 / F - right hand",
+                    "keys": ["F", "G", "A#", "C", "D#"],
+                    "fingering": []
+                },
+                {
+                    "name": "Cm7 / B - right hand",
+                    "keys": ["B", "C", "D#", "G", "A#"],
+                    "fingering": []
+                },
+
+                {
+                    "name": "Cm7 / F - left hand",
+                    "keys": ["F", "G", "A#", "C", "D#"],
+                    "fingering": []
+                },
+                {
+                    "name": "Cm7 / B - left hand",
+                    "keys": ["B", "C", "D#", "G", "A#"],
+                    "fingering": []
+                }
+            ]
+        },
+        {
+            "name": "C major 7th chord",
+            "letter": "Cmaj7",
+            "chords": [
+                {
+                    "name": "Cmaj7 - right hand",
+                    "keys": ["C", "E", "G", "B"],
+                    "fingering": [1, 2, 3, 5]
+                },
+                {
+                    "name": "Cmaj7 / E : 1st inversion - right hand",
+                    "keys": ["E", "G", "B", "C"],
+                    "fingering": []
+                },
+                {
+                    "name": "Cmaj7 / G : 2nd inversion - right hand",
+                    "keys": ["G", "B", "C", "E"],
+                    "fingering": []
+                },
+                {
+                    "name": "Cmaj7 / B : 3rd inversion - right hand",
+                    "keys": ["B", "C", "E", "G"],
+                    "fingering": []
+                },
+
+                {
+                    "name": "Cmaj7 - left hand",
+                    "keys": ["C", "E", "G", "B"],
+                    "fingering": [5, 3, 2, 1]
+                },
+                {
+                    "name": "Cmaj7 / E : 1st inversion - left hand",
+                    "keys": ["E", "G", "B", "C"],
+                    "fingering": []
+                },
+                {
+                    "name": "Cmaj7 / G : 2nd inversion - left hand",
+                    "keys": ["G", "B", "C", "E"],
+                    "fingering": []
+                },
+                {
+                    "name": "Cmaj7 / B : 3rd inversion - left hand",
+                    "keys": ["B", "C", "E", "G"],
+                    "fingering": []
+                }
+            ]
+        },
+        {
+            "name": "C minor major 7th chord",
+            "letter": "CmM7",
+            "chords": [
+                {
+                    "name": "CmM7 - right hand",
+                    "keys": ["C", "D#", "G", "B"],
+                    "fingering": [1, 2, 3, 5]
+                },
+
+                {
+                    "name": "CmM7 - left hand",
+                    "keys": ["C", "D#", "G", "B"],
+                    "fingering": [5, 3, 2, 1]
+                }
+            ]
+        },
+        {
+            "name": "C minor major 9th chord",
+            "letter": "CmM9",
+            "chords": [
+                {
+                    "name": "CmM9 - right hand",
+                    "keys": ["C", "D#", "G", "B", "D"],
+                    "fingering": []
+                },
+
+                {
+                    "name": "CmM9 - left hand",
+                    "keys": ["C", "D#", "G", "B", "D"],
+                    "fingering": []
+                }
+            ]
+        },
+        {
+            "name": "C 6th chord",
+            "letter": "C6",
+            "chords": [
+                {
+                    "name": "C6 - right hand",
+                    "keys": ["C", "E", "G", "A"],
+                    "fingering": [1, 2, 3, 4]
+                },
+                {
+                    "name": "C6 / E : 1st inversion - right hand",
+                    "keys": ["E", "G", "A", "C"],
+                    "fingering": []
+                },
+                {
+                    "name": "C6 / G : 2nd inversion - right hand",
+                    "keys": ["G", "A", "C", "E"],
+                    "fingering": []
+                },
+                {
+                    "name": "C6 / A : 3rd inversion - right hand",
+                    "keys": ["A", "C", "E", "G"],
+                    "fingering": []
+                },
+
+                {
+                    "name": "C6 - left hand",
+                    "keys": ["C", "E", "G", "A"],
+                    "fingering": [5, 3, 2, 1]
+                },
+                {
+                    "name": "C6 / E : 1st inversion - left hand",
+                    "keys": ["E", "G", "A", "C"],
+                    "fingering": []
+                },
+                {
+                    "name": "C6 / G : 2nd inversion - left hand",
+                    "keys": ["G", "A", "C", "E"],
+                    "fingering": []
+                },
+                {
+                    "name": "C6 / A : 3rd inversion - left hand",
+                    "keys": ["A", "C", "E", "G"],
+                    "fingering": []
+                }
+            ]
+        },
+        {
+            "name": "C minor 6th chord",
+            "letter": "Cm6",
+            "chords": [
+                {
+                    "name": "Cm6 - right hand",
+                    "keys": ["C", "D#", "G", "A"],
+                    "fingering": [1, 2, 3, 4]
+                },
+                {
+                    "name": "Cm6 / D# : 1st inversion - right hand",
+                    "keys": ["D#", "C", "G", "A"],
+                    "fingering": []
+                },
+                {
+                    "name": "Cm6 / G : 2nd inversion - right hand",
+                    "keys": ["G", "C", "D#", "A"],
+                    "fingering": []
+                },
+                {
+                    "name": "Cm6 / A : 3rd inversion - right hand",
+                    "keys": ["A", "C", "D#", "G"],
+                    "fingering": []
+                },
+
+                {
+                    "name": "Cm6 - left hand",
+                    "keys": ["C", "D#", "G", "A"],
+                    "fingering": [5, 3, 2, 1]
+                },
+                {
+                    "name": "Cm6 / D# : 1st inversion - left hand",
+                    "keys": ["D#", "C", "G", "A"],
+                    "fingering": []
+                },
+                {
+                    "name": "Cm6 / G : 2nd inversion - left hand",
+                    "keys": ["G", "C", "D#", "A"],
+                    "fingering": []
+                },
+                {
+                    "name": "Cm6 / A : 3rd inversion - left hand",
+                    "keys": ["A", "C", "D#", "G"],
+                    "fingering": []
+                }
+            ]
+        },
+        {
+            "name": "C 6 / 9 chord",
+            "letter": "C6 / 9",
+            "chords": [
+                {
+                    "name": "C6 / 9 - right hand",
+                    "keys": ["C", "E", "G", "A", "D"],
+                    "fingering": []
+                },
+
+                {
+                    "name": "C6 / 9 - left hand",
+                    "keys": ["C", "E", "G", "A", "D"],
+                    "fingering": []
+                }
+            ]
+        },
+        {
+            "name": "C minor 6 / 9 chord",
+            "letter": "Cm6 / 9",
+            "chords": [
+                {
+                    "name": "Cm6 / 9 - right hand",
+                    "keys": ["C", "D#", "G", "A", "D"],
+                    "fingering": []
+                },
+
+                {
+                    "name": "Cm6 / 9 - left hand",
+                    "keys": ["C", "D#", "G", "A", "D"],
+                    "fingering": []
+                }
+            ]
+        },
+        {
+            "name": "C 5th chord",
+            "letter": "C5",
+            "chords": [
+                {
+                    "name": "C5 - right hand",
+                    "keys": ["C", "G"],
+                    "fingering": [1, 5]
+                },
+
+                {
+                    "name": "C5 - left hand",
+                    "keys": ["C", "G"],
+                    "fingering": [5, 1]
+                }
+            ]
+        },
+        {
+            "name": "C 9th chord",
+            "letter": "C9",
+            "chords": [
+                {
+                    "name": "C9 - right hand",
+                    "keys": ["C", "E", "G", "A#", "D"],
+                    "fingering": []
+                },
+                {
+                    "name": "C9 / A# : one of many possible inversions - right hand",
+                    "keys": ["A#", "C", "D", "E", "G"],
+                    "fingering": []
+                },
+                {
+                    "name": "C9 : two-hand voicing - both hands",
+                    "keys": ["C", "G", "A#", "D", "E"],
+                    "fingering": [5, 1]
+                },
+
+                {
+                    "name": "C9 - left hand",
+                    "keys": ["C", "E", "G", "A#", "D"],
+                    "fingering": []
+                },
+                {
+                    "name": "C9 / A# : one of many possible inversions - left hand",
+                    "keys": ["A#", "C", "D", "E", "G"],
+                    "fingering": []
+                }
+            ]
+        },
+        {
+            "name": "C minor 9th chord",
+            "letter": "Cm9",
+            "chords": [
+                {
+                    "name": "Cm9 - right hand",
+                    "keys": ["C", "D#", "G", "A#", "D"],
+                    "fingering": []
+                },
+                {
+                    "name": "Cm9 / A# : one of many possible inversions - right hand",
+                    "keys": ["A#", "C", "D", "D#", "G"],
+                    "fingering": []
+                },
+                {
+                    "name": "Cm9 : two-hand voicing - both hands",
+                    "keys": ["C", "D#", "G", "A#", "D"],
+                    "fingering": [5, 3, 1]
+                },
+
+                {
+                    "name": "Cm9 - left hand",
+                    "keys": ["C", "D#", "G", "A#", "D"],
+                    "fingering": []
+                },
+                {
+                    "name": "Cm9 / A# : one of many possible inversions - left hand",
+                    "keys": ["A#", "C", "D", "D#", "G"],
+                    "fingering": []
+                }
+            ]
+        },
+        {
+            "name": "C major 9th chord",
+            "letter": "Cmaj9",
+            "chords": [
+                {
+                    "name": "Cmaj9 - right hand",
+                    "keys": ["C", "E", "G", "B", "D"],
+                    "fingering": []
+                },
+                {
+                    "name": "Cmaj9 : two-hand voicing - both hands",
+                    "keys": ["C", "G", "B", "D", "E"],
+                    "fingering": [5, 1]
+                },
+                {
+                    "name": "Cm9 : two-hand voicing (the 5th is omitted) - both hands",
+                    "keys": ["C", "E", "B", "D"],
+                    "fingering": [5, 3]
+                },
+
+                {
+                    "name": "Cmaj9 - left hand",
+                    "keys": ["C", "E", "G", "B", "D"],
+                    "fingering": []
+                }
+            ]
+        },
+        {
+            "name": "C 11th chord",
+            "letter": "C11",
+            "chords": [
+                {
+                    "name": "C11 - both hands",
+                    "keys": ["C", "E", "G", "A#", "D", "F"],
+                    "fingering": []
+                },
+                {
+                    "name": "C11 : voicing 1 - both hands",
+                    "keys": ["C", "D", "F", "G", "A#"],
+                    "fingering": []
+                },
+                {
+                    "name": "C11 : voicing 2 - both hands",
+                    "keys": ["E", "A#", "C", "F"],
+                    "fingering": []
+                }
+            ]
+        },
+        {
+            "name": "C minor 11th chord",
+            "letter": "Cm11",
+            "chords": [
+                {
+                    "name": "Cm11 - both hands",
+                    "keys": ["C", "D#", "G", "A#", "D", "F"],
+                    "fingering": []
+                },
+                {
+                    "name": "Cm11 : voicing - both hands",
+                    "keys": ["C", "D#", "F", "A#"],
+                    "fingering": []
+                }
+            ]
+        },
+        {
+            "name": "C 13th chord",
+            "letter": "C13",
+            "chords": [
+                {
+                    "name": "C13 - both hands",
+                    "keys": ["C", "E", "G", "A#", "D", "F", "A"],
+                    "fingering": []
+                },
+                {
+                    "name": "C13 : one of many possible inversions (with the 5th and the 11th omitted) - right hand",
+                    "keys": ["A#", "C", "D", "E", "A"],
+                    "fingering": []
+                },
+                {
+                    "name": "C13 : one of many possible two-hand voicings (the 13th is added to a C7th voicing) - both hands",
+                    "keys": ["C", "A#", "E", "A"],
+                    "fingering": []
+                },
+
+                {
+                    "name": "C13 : one of many possible inversions (with the 5th and the 11th omitted) - left hand",
+                    "keys": ["A#", "C", "D", "E", "A"],
+                    "fingering": []
+                }
+            ]
+        },
+        {
+            "name": "C minor 13th chord",
+            "letter": "Cm13",
+            "chords": [
+                {
+                    "name": "Cm13 - both hands",
+                    "keys": ["C", "D#", "G", "A#", "D", "F", "A"],
+                    "fingering": []
+                },
+                {
+                    "name": "Cm13 : two-hand voicing - both hands",
+                    "keys": ["C", "A#", "D#", "A"],
+                    "fingering": [5, 1]
+                }
+            ]
+        },
+        {
+            "name": "C major 13th chord",
+            "letter": "Cmaj13",
+            "chords": [
+                {
+                    "name": "Cmaj13 - both hands",
+                    "keys": ["C", "E", "G", "B", "D", "A"],
+                    "fingering": []
+                },
+                {
+                    "name": "Cmaj13 : one of many possible inversions (Cmaj13/B with the 9th and the 11th omitted) - both hands",
+                    "keys": ["C", "B", "E", "G", "A"],
+                    "fingering": []
+                },
+                {
+                    "name": "Cmaj13 : two-hand voicing - both hands",
+                    "keys": ["C", "B", "E", "A"],
+                    "fingering": []
                 }
             ]
         }

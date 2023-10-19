@@ -100,6 +100,9 @@ function createChordHTML() {
     // set page title
     kind.textContent = jsonObject.title;
 
+    // create html with content links for easier navigation on page
+    createContentLinksHTML(piano);
+
     // create row html for each element
     createRowsHTML(piano);
 
@@ -115,9 +118,8 @@ function createRowsHTML(pianoHTML) {
     // for each fetched element, create separated html element
     for (let i = 0; i < numberOfElements; i++) {
         numberOfChords = jsonObject.elements[i].chords.length;
-        chord = document.createElement("h2");
+        chord = createChordHeading(i);
 
-        chord.className = "chord";
         pianoHTML.append(chord);
 
         // create html for each chord
@@ -145,9 +147,6 @@ function createRowsHTML(pianoHTML) {
             card.append(box);
 
             octaves.forEach((octave) => box.append(octave));
-
-            // set heading for all chords
-            chord.textContent = jsonObject.elements[i].name;
 
             // set name for individual chord
             name.textContent = jsonObject.elements[i].chords[j].name;
@@ -231,6 +230,34 @@ function createOctaveHTML(isLastOctave = false) {
     octave.append(keyB);
 
     return octave;
+}
+
+// create html for chord heading, insert home
+// link inside it and return created element
+function createChordHeading(currentElement) {
+    const chord = document.createElement("h2");
+    const homeLink = document.createElement("a");
+
+    chord.className = "chord";
+
+    // add id as link address for each heading element
+    // for faster navigation with content links
+    chord.id = getLinkAddress(jsonObject.elements[currentElement].letter);
+
+    // set heading for all chords
+    chord.textContent = jsonObject.elements[currentElement].name;
+
+    // add link to the home link and nest it inside chord heading
+    // for easier navigation to the beginning of the page
+    // insert html entity into home link as small icon
+    homeLink.href = "#";
+    homeLink.className = "home-link";
+    homeLink.innerHTML = "&#8679;"; // arrow up icon
+    homeLink.innerHTML = "&#127968;"; // home icon (or &#x1F3E0;)
+
+    chord.append(homeLink);
+
+    return chord;
 }
 
 // for each played key, append appropriate css class
@@ -320,6 +347,40 @@ function isKeyCorrect(currentElement, currentChord, key) {
     }
 
     return correctKey;
+}
+
+// create html with content links for easier navigation
+function createContentLinksHTML(pianoHTML) {
+    const contents = document.createElement("div");
+
+    contents.className = "contents";
+
+    jsonObject.elements.forEach((element) => {
+        const contentLink = document.createElement("a");
+
+        contentLink.classList = "content-link";
+        contentLink.textContent = element.letter;
+
+        // remove spaces, and set only lower case
+        // letters for link address
+        contentLink.href = "#" + getLinkAddress(element.letter);
+
+        // add created link to the piano html tree
+        contents.append(contentLink);
+    });
+
+    pianoHTML.append(contents);
+}
+
+// remove spaces, and set only lower case
+// letters for link address
+function getLinkAddress(letter) {
+    let address = letter.toLowerCase();
+
+    // remove all spaces
+    address = address.replaceAll(" ", "");
+
+    return address;
 }
 
 function setDocumentTitle() {
