@@ -754,6 +754,204 @@
                     "fingering": []
                 }
             ]
+        },
+        {
+            "name": "C add chords",
+            "letter": "Cadd",
+            "chords": [
+                {
+                    "name": "Cadd9 - right hand",
+                    "keys": ["C", "E", "G", "D"],
+                    "fingering": [1, 2, 3, 5]
+                },
+                {
+                    "name": "Cadd2 - right hand",
+                    "keys": ["C", "D", "E", "G"],
+                    "fingering": [1, 2, 3, 5]
+                },
+                {
+                    "name": "Cadd4 - right hand",
+                    "keys": ["C", "E", "F", "G"],
+                    "fingering": []
+                },
+                {
+                    "name": "Cadd11 - both hands",
+                    "keys": ["C", "E", "G", "F"],
+                    "fingering": []
+                },
+
+                {
+                    "name": "Cadd9 - left hand",
+                    "keys": ["C", "E", "G", "D"],
+                    "fingering": [5, 3, 2, 1]
+                },
+                {
+                    "name": "Cadd2 - left hand",
+                    "keys": ["C", "D", "E", "G"],
+                    "fingering": [5, 4, 3, 1]
+                },
+                {
+                    "name": "Cadd4 - left hand",
+                    "keys": ["C", "E", "F", "G"],
+                    "fingering": []
+                }
+            ]
+        },
+        {
+            "name": "C7-5 (C7b5) altered chord",
+            "letter": "C7-5",
+            "chords": [
+                {
+                    "name": "C7-5 - right hand",
+                    "keys": ["C", "E", "F#", "A#"],
+                    "fingering": [1, 2, 3, 5]
+                },
+
+                {
+                    "name": "C7-5 - left hand",
+                    "keys": ["C", "E", "F#", "A#"],
+                    "fingering": [5, 3, 2, 1]
+                }
+            ]
+        },
+        {
+            "name": "C7+5 (C7#5) altered chord",
+            "letter": "C7+5",
+            "chords": [
+                {
+                    "name": "C7+5 - right hand",
+                    "keys": ["C", "E", "G#", "A#"],
+                    "fingering": [1, 2, 3, 5]
+                },
+
+                {
+                    "name": "C7+5 - left hand",
+                    "keys": ["C", "E", "G#", "A#"],
+                    "fingering": [5, 3, 2, 1]
+                }
+            ]
+        },
+        {
+            "name": "C sus chords",
+            "letter": "Csus",
+            "chords": [
+                {
+                    "name": "Csus4 - right hand",
+                    "keys": ["C", "F", "G"],
+                    "fingering": [1, 4, 5]
+                },
+                {
+                    "name": "Csus2 - right hand",
+                    "keys": ["C", "D", "G"],
+                    "fingering": [1, 2, 5]
+                },
+                {
+                    "name": "C7sus4 - right hand",
+                    "keys": ["C", "F", "G", "A#"],
+                    "fingering": [1, 2, 3, 5]
+                },
+
+                {
+                    "name": "Csus4 - left hand",
+                    "keys": ["C", "F", "G"],
+                    "fingering": [5, 2, 1]
+                },
+                {
+                    "name": "Csus2 - left hand",
+                    "keys": ["C", "D", "G"],
+                    "fingering": [5, 4, 1]
+                },
+                {
+                    "name": "C7sus4 - left hand",
+                    "keys": ["C", "F", "G", "A#"],
+                    "fingering": [5, 3, 2, 1]
+                }
+            ]
+        },
+        {
+            "name": "C dim chord",
+            "letter": "Cdim",
+            "chords": [
+                {
+                    "name": "Cdim - right hand",
+                    "keys": ["C", "D#", "F#"],
+                    "fingering": [1, 3, 5]
+                },
+
+                {
+                    "name": "Cdim - left hand",
+                    "keys": ["C", "D#", "F#"],
+                    "fingering": [5, 3, 1]
+                }
+            ]
+        },
+        {
+            "name": "Cdim7 chord",
+            "letter": "Cdim7",
+            "chords": [
+                {
+                    "name": "Cdim7 - right hand",
+                    "keys": ["C", "D#", "F#", "A"],
+                    "fingering": [1, 2, 3, 5]
+                },
+
+                {
+                    "name": "Cdim7 - left hand",
+                    "keys": ["C", "D#", "F#", "A"],
+                    "fingering": [5, 3, 2, 1]
+                }
+            ]
+        },
+        {
+            "name": "Cm7(b5) chord",
+            "letter": "Cm7b5",
+            "chords": [
+                {
+                    "name": "Cm7b5 - right hand",
+                    "keys": ["C", "D#", "F#", "A#"],
+                    "fingering": [1, 2, 3, 5]
+                },
+
+                {
+                    "name": "Cm7b5 - left hand",
+                    "keys": ["C", "D#", "F#", "A#"],
+                    "fingering": [5, 3, 2, 1]
+                }
+            ]
+        },
+        {
+            "name": "C aug chord",
+            "letter": "Caug",
+            "chords": [
+                {
+                    "name": "Caug - right hand",
+                    "keys": ["C", "E", "G#"],
+                    "fingering": [1, 3, 5]
+                },
+
+                {
+                    "name": "Caug - left hand",
+                    "keys": ["C", "E", "G#"],
+                    "fingering": [5, 3, 2]
+                }
+            ]
+        },
+        {
+            "name": "Caug7 chord",
+            "letter": "Caug7",
+            "chords": [
+                {
+                    "name": "Caug7 - right hand",
+                    "keys": ["C", "E", "G#", "A#"],
+                    "fingering": [1, 2, 3, 5]
+                },
+
+                {
+                    "name": "Caug7 - left hand",
+                    "keys": ["C", "E", "G#", "A#"],
+                    "fingering": [5, 3, 2, 1]
+                }
+            ]
         }
     ]
 }
