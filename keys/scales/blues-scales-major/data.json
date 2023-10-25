@@ -1,0 +1,136 @@
+{
+    "title": "Major Blues Scales",
+    "elements": [
+        {
+            "name": "C Pentatonic Blues - right hand",
+            "keys": ["C", "D", "D#", "E", "G", "A"],
+            "fingering": []
+        },
+        {
+            "name": "C Pentatonic Blues - left hand",
+            "keys": ["C", "D", "D#", "E", "G", "A"],
+            "fingering": []
+        },
+
+        {
+            "name": "C# Pentatonic Blues - right hand",
+            "keys": ["C#", "D#", "E", "F", "G#", "A#"],
+            "fingering": []
+        },
+        {
+            "name": "C# Pentatonic Blues - left hand",
+            "keys": ["C#", "D#", "E", "F", "G#", "A#"],
+            "fingering": []
+        },
+
+        {
+            "name": "D Pentatonic Blues - right hand",
+            "keys": ["D", "E", "F", "F#", "A", "B"],
+            "fingering": []
+        },
+        {
+            "name": "D Pentatonic Blues - left hand",
+            "keys": ["D", "E", "F", "F#", "A", "B"],
+            "fingering": []
+        },
+
+        {
+            "name": "D# Pentatonic Blues - right hand",
+            "keys": ["D#", "F", "F#", "G", "A#", "C"],
+            "fingering": []
+        },
+        {
+            "name": "D# Pentatonic Blues - left hand",
+            "keys": ["D#", "F", "F#", "G", "A#", "C"],
+            "fingering": []
+        },
+
+        {
+            "name": "E Pentatonic Blues - right hand",
+            "keys": ["E", "F#", "G", "G#", "B", "C#"],
+            "fingering": []
+        },
+        {
+            "name": "E Pentatonic Blues - left hand",
+            "keys": ["E", "F#", "G", "G#", "B", "C#"],
+            "fingering": []
+        },
+
+        {
+            "name": "F Pentatonic Blues - right hand",
+            "keys": ["F", "G", "G#", "A", "C", "D"],
+            "fingering": []
+        },
+        {
+            "name": "F Pentatonic Blues - left hand",
+            "keys": ["F", "G", "G#", "A", "C", "D"],
+            "fingering": []
+        },
+
+        {
+            "name": "F# Pentatonic Blues - right hand",
+            "keys": ["F#", "G#", "A", "A#", "C#", "D#"],
+            "fingering": []
+        },
+        {
+            "name": "F# Pentatonic Blues - left hand",
+            "keys": ["F#", "G#", "A", "A#", "C#", "D#"],
+            "fingering": []
+        },
+
+        {
+            "name": "G Pentatonic Blues - right hand",
+            "keys": ["G", "A", "A#", "B", "D", "E"],
+            "fingering": []
+        },
+        {
+            "name": "G Pentatonic Blues - left hand",
+            "keys": ["G", "A", "A#", "B", "D", "E"],
+            "fingering": []
+        },
+
+        {
+            "name": "G# Pentatonic Blues - right hand",
+            "keys": ["G#", "A#", "B", "C", "D#", "F"],
+            "fingering": []
+        },
+        {
+            "name": "G# Pentatonic Blues - left hand",
+            "keys": ["G#", "A#", "B", "C", "D#", "F"],
+            "fingering": []
+        },
+
+        {
+            "name": "A Pentatonic Blues - right hand",
+            "keys": ["A", "B", "C", "C#", "E", "F#"],
+            "fingering": []
+        },
+        {
+            "name": "A Pentatonic Blues - left hand",
+            "keys": ["A", "B", "C", "C#", "E", "F#"],
+            "fingering": []
+        },
+
+        {
+            "name": "A# Pentatonic Blues - right hand",
+            "keys": ["A#", "C", "C#", "D", "F", "G"],
+            "fingering": []
+        },
+        {
+            "name": "A# Pentatonic Blues - left hand",
+            "keys": ["A#", "C", "C#", "D", "F", "G"],
+            "fingering": []
+        },
+
+        {
+            "name": "B Pentatonic Blues - right hand",
+            "keys": ["B", "C#", "D", "D#", "F#", "G#"],
+            "fingering": []
+        },
+        {
+            "name": "B Pentatonic Blues - left hand",
+            "keys": ["B", "C#", "D", "D#", "F#", "G#"],
+            "fingering": []
+        }
+    ]
+}
