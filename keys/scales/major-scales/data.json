@@ -1,0 +1,136 @@
+{
+    "title": "Major Scales",
+    "elements": [
+        {
+            "name": "C Major - right hand",
+            "keys": ["C", "D", "E", "F", "G", "A", "B"],
+            "fingering": [1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 1, 2, 3, 4, 5]
+        },
+        {
+            "name": "C Major - left hand",
+            "keys": ["C", "D", "E", "F", "G", "A", "B"],
+            "fingering": [5, 4, 3, 2, 1, 3, 2, 1, 4, 3, 2, 1, 3, 2, 1]
+        },
+
+        {
+            "name": "C# Major - right hand",
+            "keys": ["C#", "D#", "F", "F#", "G#", "A#", "C"],
+            "fingering": [2, 3, 1, 2, 3, 4, 1, 2, 3, 1, 2, 3, 4, 1, 2]
+        },
+        {
+            "name": "C# Major - left hand",
+            "keys": ["C#", "D#", "F", "F#", "G#", "A#", "C"],
+            "fingering": [3, 2, 1, 4, 3, 2, 1, 3, 2, 1, 4, 3, 2, 1, 2]
+        },
+
+        {
+            "name": "D Major - right hand",
+            "keys": ["D", "E", "F#", "G", "A", "B", "C#"],
+            "fingering": [1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 1, 2, 3, 4, 5]
+        },
+        {
+            "name": "D Major - left hand",
+            "keys": ["D", "E", "F#", "G", "A", "B", "C#"],
+            "fingering": [5, 4, 3, 2, 1, 3, 2, 1, 4, 3, 2, 1, 3, 2, 1]
+        },
+
+        {
+            "name": "D# Major - right hand",
+            "keys": ["D#", "F", "G", "G#", "A#", "C", "D"],
+            "fingering": [3, 1, 2, 3, 4, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3]
+        },
+        {
+            "name": "D# Major - left hand",
+            "keys": ["D#", "F", "G", "G#", "A#", "C", "D"],
+            "fingering": [3, 2, 1, 4, 3, 2, 1, 3, 2, 1, 4, 3, 2, 1, 2]
+        },
+
+        {
+            "name": "E Major - right hand",
+            "keys": ["E", "F#", "G#", "A", "B", "C#", "D#"],
+            "fingering": [1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 1, 2, 3, 4, 5]
+        },
+        {
+            "name": "E Major - left hand",
+            "keys": ["E", "F#", "G#", "A", "B", "C#", "D#"],
+            "fingering": [5, 4, 3, 2, 1, 3, 2, 1, 4, 3, 2, 1, 3, 2, 1]
+        },
+
+        {
+            "name": "F Major - right hand",
+            "keys": ["F", "G", "A", "A#", "C", "D", "E"],
+            "fingering": [1, 2, 3, 4, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 4]
+        },
+        {
+            "name": "F Major - left hand",
+            "keys": ["F", "G", "A", "A#", "C", "D", "E"],
+            "fingering": [5, 4, 3, 2, 1, 3, 2, 1, 4, 3, 2, 1, 3, 2, 1]
+        },
+
+        {
+            "name": "F# Major - right hand",
+            "keys": ["F#", "G#", "A#", "B", "C#", "D#", "F"],
+            "fingering": [2, 3, 4, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 1, 2]
+        },
+        {
+            "name": "F# Major - left hand",
+            "keys": ["F#", "G#", "A#", "B", "C#", "D#", "F"],
+            "fingering": [4, 3, 2, 1, 3, 2, 1, 4, 3, 2, 1, 3, 2, 1, 2]
+        },
+
+        {
+            "name": "G Major - right hand",
+            "keys": ["G", "A", "B", "C", "D", "E", "F#"],
+            "fingering": [1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 1, 2, 3, 4, 5]
+        },
+        {
+            "name": "G Major - left hand",
+            "keys": ["G", "A", "B", "C", "D", "E", "F#"],
+            "fingering": [5, 4, 3, 2, 1, 3, 2, 1, 4, 3, 2, 1, 3, 2, 1]
+        },
+
+        {
+            "name": "G# Major - right hand",
+            "keys": ["G#", "A#", "C", "C#", "D#", "F", "G"],
+            "fingering": [3, 4, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 1, 2, 3]
+        },
+        {
+            "name": "G# Major - left hand",
+            "keys": ["G#", "A#", "C", "C#", "D#", "F", "G"],
+            "fingering": [3, 2, 1, 4, 3, 2, 1, 3, 2, 1, 4, 3, 2, 1, 2]
+        },
+
+        {
+            "name": "A Major - right hand",
+            "keys": ["A", "B", "C#", "D", "E", "F#", "G#"],
+            "fingering": [1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 1, 2, 3, 4, 5]
+        },
+        {
+            "name": "A Major - left hand",
+            "keys": ["A", "B", "C#", "D", "E", "F#", "G#"],
+            "fingering": [5, 4, 3, 2, 1, 3, 2, 1, 4, 3, 2, 1, 3, 2, 1]
+        },
+
+        {
+            "name": "A# Major - right hand",
+            "keys": ["A#", "C", "D", "D#", "F", "G", "A"],
+            "fingering": [4, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 1, 2, 3, 4]
+        },
+        {
+            "name": "A# Major - left hand",
+            "keys": ["A#", "C", "D", "D#", "F", "G", "A"],
+            "fingering": [3, 2, 1, 4, 3, 2, 1, 3, 2, 1, 4, 3, 2, 1, 2]
+        },
+
+        {
+            "name": "B Major - right hand",
+            "keys": ["B", "C#", "D#", "E", "F#", "G#", "A#"],
+            "fingering": [1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 1, 2, 3, 4, 5]
+        },
+        {
+            "name": "B Major - left hand",
+            "keys": ["B", "C#", "D#", "E", "F#", "G#", "A#"],
+            "fingering": [4, 3, 2, 1, 4, 3, 2, 1, 3, 2, 1, 4, 3, 2, 1]
+        }
+    ]
+}
