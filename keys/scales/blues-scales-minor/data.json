@@ -26,7 +26,7 @@
         {
             "name": "Dm Pentatonic Blues - right hand",
             "keys": ["D", "F", "G", "G#", "A", "C"],
-            "fingering": []
+            "fingering": [3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]
         },
         {
             "name": "Dm Pentatonic Blues - left hand",
@@ -37,7 +37,7 @@
         {
             "name": "D#m Pentatonic Blues - right hand",
             "keys": ["D#", "F#", "G#", "A", "A#", "C#"],
-            "fingering": []
+            "fingering": [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1]
         },
         {
             "name": "D#m Pentatonic Blues - left hand",
@@ -48,7 +48,7 @@
         {
             "name": "Em Pentatonic Blues - right hand",
             "keys": ["E", "G", "A", "A#", "B", "D"],
-            "fingering": []
+            "fingering": [3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]
         },
         {
             "name": "Em Pentatonic Blues - left hand",
@@ -59,7 +59,7 @@
         {
             "name": "Fm Pentatonic Blues - right hand",
             "keys": ["F", "G#", "A#", "B", "C", "D#"],
-            "fingering": []
+            "fingering": [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1]
         },
         {
             "name": "Fm Pentatonic Blues - left hand",
@@ -70,7 +70,7 @@
         {
             "name": "F#m Pentatonic Blues - right hand",
             "keys": ["F#", "A", "B", "C", "C#", "E"],
-            "fingering": []
+            "fingering": [2, 1, 2, 3, 4, 1, 2, 1, 2, 3, 4, 1, 2]
         },
         {
             "name": "F#m Pentatonic Blues - left hand",
@@ -81,7 +81,7 @@
         {
             "name": "Gm Pentatonic Blues - right hand",
             "keys": ["G", "A#", "C", "C#", "D", "F"],
-            "fingering": []
+            "fingering": [1, 2, 3, 4, 1, 2, 1, 2, 3, 4, 1, 2, 1]
         },
         {
             "name": "Gm Pentatonic Blues - left hand",
@@ -92,7 +92,7 @@
         {
             "name": "G#m Pentatonic Blues - right hand",
             "keys": ["G#", "B", "C#", "D", "D#", "F#"],
-            "fingering": []
+            "fingering": [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1]
         },
         {
             "name": "G#m Pentatonic Blues - left hand",
@@ -103,7 +103,7 @@
         {
             "name": "Am Pentatonic Blues - right hand",
             "keys": ["A", "C", "D", "D#", "E", "G"],
-            "fingering": []
+            "fingering": [3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]
         },
         {
             "name": "Am Pentatonic Blues - left hand",
@@ -114,7 +114,7 @@
         {
             "name": "A#m Pentatonic Blues - right hand",
             "keys": ["A#", "C#", "D#", "E", "F", "G#"],
-            "fingering": []
+            "fingering": [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1]
         },
         {
             "name": "A#m Pentatonic Blues - left hand",
@@ -125,7 +125,7 @@
         {
             "name": "Bm Pentatonic Blues - right hand",
             "keys": ["B", "D", "E", "F", "F#", "A"],
-            "fingering": []
+            "fingering": [2, 1, 2, 3, 4, 1, 2, 1, 2, 3, 4, 1, 2]
         },
         {
             "name": "Bm Pentatonic Blues - left hand",
