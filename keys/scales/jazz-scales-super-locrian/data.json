@@ -1,0 +1,136 @@
+{
+    "title": "Super Locrian Scales",
+    "elements": [
+        {
+            "name": "C Super Locrian - right hand",
+            "keys": ["C", "C#", "D#", "E", "F#", "G#", "A#"],
+            "fingering": []
+        },
+        {
+            "name": "C Super Locrian - left hand",
+            "keys": ["C", "C#", "D#", "E", "F#", "G#", "A#"],
+            "fingering": []
+        },
+
+        {
+            "name": "C# Super Locrian - right hand",
+            "keys": ["C#", "D", "E", "F", "G", "A", "B"],
+            "fingering": []
+        },
+        {
+            "name": "C# Super Locrian - left hand",
+            "keys": ["C#", "D", "E", "F", "G", "A", "B"],
+            "fingering": []
+        },
+
+        {
+            "name": "D Super Locrian - right hand",
+            "keys": ["D", "D#", "F", "F#", "G#", "A#", "C"],
+            "fingering": []
+        },
+        {
+            "name": "D Super Locrian - left hand",
+            "keys": ["D", "D#", "F", "F#", "G#", "A#", "C"],
+            "fingering": []
+        },
+
+        {
+            "name": "D# Super Locrian - right hand",
+            "keys": ["D#", "E", "F#", "G", "A", "B", "C#"],
+            "fingering": []
+        },
+        {
+            "name": "D# Super Locrian - left hand",
+            "keys": ["D#", "E", "F#", "G", "A", "B", "C#"],
+            "fingering": []
+        },
+
+        {
+            "name": "E Super Locrian - right hand",
+            "keys": ["E", "F", "G", "G#", "A#", "C", "D"],
+            "fingering": []
+        },
+        {
+            "name": "E Super Locrian - left hand",
+            "keys": ["E", "F", "G", "G#", "A#", "C", "D"],
+            "fingering": []
+        },
+
+        {
+            "name": "F Super Locrian - right hand",
+            "keys": ["F", "F#", "G#", "A", "B", "C#", "D#"],
+            "fingering": []
+        },
+        {
+            "name": "F Super Locrian - left hand",
+            "keys": ["F", "F#", "G#", "A", "B", "C#", "D#"],
+            "fingering": []
+        },
+
+        {
+            "name": "F# Super Locrian - right hand",
+            "keys": ["F#", "G", "A", "A#", "C", "D", "E"],
+            "fingering": []
+        },
+        {
+            "name": "F# Super Locrian - left hand",
+            "keys": ["F#", "G", "A", "A#", "C", "D", "E"],
+            "fingering": []
+        },
+
+        {
+            "name": "G Super Locrian - right hand",
+            "keys": ["G", "G#", "A#", "B", "C#", "D#", "F"],
+            "fingering": []
+        },
+        {
+            "name": "G Super Locrian - left hand",
+            "keys": ["G", "G#", "A#", "B", "C#", "D#", "F"],
+            "fingering": []
+        },
+
+        {
+            "name": "G# Super Locrian - right hand",
+            "keys": ["G#", "A", "B", "C", "D", "E", "F#"],
+            "fingering": []
+        },
+        {
+            "name": "G# Super Locrian - left hand",
+            "keys": ["G#", "A", "B", "C", "D", "E", "F#"],
+            "fingering": []
+        },
+
+        {
+            "name": "A Super Locrian - right hand",
+            "keys": ["A", "A#", "C", "C#", "D#", "F", "G"],
+            "fingering": []
+        },
+        {
+            "name": "A Super Locrian - left hand",
+            "keys": ["A", "A#", "C", "C#", "D#", "F", "G"],
+            "fingering": []
+        },
+
+        {
+            "name": "A# Super Locrian - right hand",
+            "keys": ["A#", "B", "C#", "D", "E", "F#", "G#"],
+            "fingering": []
+        },
+        {
+            "name": "A# Super Locrian - left hand",
+            "keys": ["A#", "B", "C#", "D", "E", "F#", "G#"],
+            "fingering": []
+        },
+
+        {
+            "name": "B Super Locrian - right hand",
+            "keys": ["B", "C", "D", "D#", "F", "G", "A"],
+            "fingering": []
+        },
+        {
+            "name": "B Super Locrian - left hand",
+            "keys": ["B", "C", "D", "D#", "F", "G", "A"],
+            "fingering": []
+        }
+    ]
+}
