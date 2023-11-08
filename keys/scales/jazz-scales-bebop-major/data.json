@@ -1,0 +1,136 @@
+{
+    "title": "Major Bebop Scales",
+    "elements": [
+        {
+            "name": "C Bebop - right hand",
+            "keys": ["C", "D", "E", "F", "G", "G#", "A", "B"],
+            "fingering": []
+        },
+        {
+            "name": "C Bebop - left hand",
+            "keys": ["C", "D", "E", "F", "G", "G#", "A", "B"],
+            "fingering": []
+        },
+
+        {
+            "name": "C# Bebop - right hand",
+            "keys": ["C#", "D#", "F", "F#", "G#", "A", "A#", "C"],
+            "fingering": []
+        },
+        {
+            "name": "C# Bebop - left hand",
+            "keys": ["C#", "D#", "F", "F#", "G#", "A", "A#", "C"],
+            "fingering": []
+        },
+
+        {
+            "name": "D Bebop - right hand",
+            "keys": ["D", "E", "F#", "G", "A", "A#", "B", "C#"],
+            "fingering": []
+        },
+        {
+            "name": "D Bebop - left hand",
+            "keys": ["D", "E", "F#", "G", "A", "A#", "B", "C#"],
+            "fingering": []
+        },
+
+        {
+            "name": "D# Bebop - right hand",
+            "keys": ["D#", "F", "G", "G#", "A#", "B", "C", "D"],
+            "fingering": []
+        },
+        {
+            "name": "D# Bebop - left hand",
+            "keys": ["D#", "F", "G", "G#", "A#", "B", "C", "D"],
+            "fingering": []
+        },
+
+        {
+            "name": "E Bebop - right hand",
+            "keys": ["E", "F#", "G#", "A", "B", "C", "C#", "D#"],
+            "fingering": []
+        },
+        {
+            "name": "E Bebop - left hand",
+            "keys": ["E", "F#", "G#", "A", "B", "C", "C#", "D#"],
+            "fingering": []
+        },
+
+        {
+            "name": "F Bebop - right hand",
+            "keys": ["F", "G", "A", "A#", "C", "C#", "D", "E"],
+            "fingering": []
+        },
+        {
+            "name": "F Bebop - left hand",
+            "keys": ["F", "G", "A", "A#", "C", "C#", "D", "E"],
+            "fingering": []
+        },
+
+        {
+            "name": "F# Bebop - right hand",
+            "keys": ["F#", "G#", "A#", "B", "C#", "D", "D#", "F"],
+            "fingering": []
+        },
+        {
+            "name": "F# Bebop - left hand",
+            "keys": ["F#", "G#", "A#", "B", "C#", "D", "D#", "F"],
+            "fingering": []
+        },
+
+        {
+            "name": "G Bebop - right hand",
+            "keys": ["G", "A", "B", "C", "D", "D#", "E", "F#"],
+            "fingering": []
+        },
+        {
+            "name": "G Bebop - left hand",
+            "keys": ["G", "A", "B", "C", "D", "D#", "E", "F#"],
+            "fingering": []
+        },
+
+        {
+            "name": "G# Bebop - right hand",
+            "keys": ["G#", "A#", "C", "C#", "D#", "E", "F", "G"],
+            "fingering": []
+        },
+        {
+            "name": "G# Bebop - left hand",
+            "keys": ["G#", "A#", "C", "C#", "D#", "E", "F", "G"],
+            "fingering": []
+        },
+
+        {
+            "name": "A Bebop - right hand",
+            "keys": ["A", "B", "C#", "D", "E", "F", "F#", "G#"],
+            "fingering": []
+        },
+        {
+            "name": "A Bebop - left hand",
+            "keys": ["A", "B", "C#", "D", "E", "F", "F#", "G#"],
+            "fingering": []
+        },
+
+        {
+            "name": "A# Bebop - right hand",
+            "keys": ["A#", "C", "D", "D#", "F", "F#", "G", "A"],
+            "fingering": []
+        },
+        {
+            "name": "A# Bebop - left hand",
+            "keys": ["A#", "C", "D", "D#", "F", "F#", "G", "A"],
+            "fingering": []
+        },
+
+        {
+            "name": "B Bebop - right hand",
+            "keys": ["B", "C#", "D#", "E", "F#", "G", "G#", "A#"],
+            "fingering": []
+        },
+        {
+            "name": "B Bebop - left hand",
+            "keys": ["B", "C#", "D#", "E", "F#", "G", "G#", "A#"],
+            "fingering": []
+        }
+    ]
+}

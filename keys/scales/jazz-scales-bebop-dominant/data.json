@@ -1,0 +1,136 @@
+{
+    "title": "Dominant Bebop Scales",
+    "elements": [
+        {
+            "name": "C Dominant Bebop - right hand",
+            "keys": ["C", "D", "E", "F", "G", "A", "A#", "B"],
+            "fingering": []
+        },
+        {
+            "name": "C Dominant Bebop - left hand",
+            "keys": ["C", "D", "E", "F", "G", "A", "A#", "B"],
+            "fingering": []
+        },
+
+        {
+            "name": "C# Dominant Bebop - right hand",
+            "keys": ["C#", "D#", "F", "F#", "G#", "A#", "B", "C"],
+            "fingering": []
+        },
+        {
+            "name": "C# Dominant Bebop - left hand",
+            "keys": ["C#", "D#", "F", "F#", "G#", "A#", "B", "C"],
+            "fingering": []
+        },
+
+        {
+            "name": "D Dominant Bebop - right hand",
+            "keys": ["D", "E", "F#", "G", "A", "B", "C", "C#"],
+            "fingering": []
+        },
+        {
+            "name": "D Dominant Bebop - left hand",
+            "keys": ["D", "E", "F#", "G", "A", "B", "C", "C#"],
+            "fingering": []
+        },
+
+        {
+            "name": "D# Dominant Bebop - right hand",
+            "keys": ["D#", "F", "G", "G#", "A#", "C", "C#", "D"],
+            "fingering": []
+        },
+        {
+            "name": "D# Dominant Bebop - left hand",
+            "keys": ["D#", "F", "G", "G#", "A#", "C", "C#", "D"],
+            "fingering": []
+        },
+
+        {
+            "name": "E Dominant Bebop - right hand",
+            "keys": ["E", "F#", "G#", "A", "B", "C#", "D", "D#"],
+            "fingering": []
+        },
+        {
+            "name": "E Dominant Bebop - left hand",
+            "keys": ["E", "F#", "G#", "A", "B", "C#", "D", "D#"],
+            "fingering": []
+        },
+
+        {
+            "name": "F Dominant Bebop - right hand",
+            "keys": ["F", "G", "A", "A#", "C", "D", "D#", "E"],
+            "fingering": []
+        },
+        {
+            "name": "F Dominant Bebop - left hand",
+            "keys": ["F", "G", "A", "A#", "C", "D", "D#", "E"],
+            "fingering": []
+        },
+
+        {
+            "name": "F# Dominant Bebop - right hand",
+            "keys": ["F#", "G#", "A#", "B", "C#", "D#", "E", "F"],
+            "fingering": []
+        },
+        {
+            "name": "F# Dominant Bebop - left hand",
+            "keys": ["F#", "G#", "A#", "B", "C#", "D#", "E", "F"],
+            "fingering": []
+        },
+
+        {
+            "name": "G Dominant Bebop - right hand",
+            "keys": ["G", "A", "B", "C", "D", "E", "F", "F#"],
+            "fingering": []
+        },
+        {
+            "name": "G Dominant Bebop - left hand",
+            "keys": ["G", "A", "B", "C", "D", "E", "F", "F#"],
+            "fingering": []
+        },
+
+        {
+            "name": "G# Dominant Bebop - right hand",
+            "keys": ["G#", "A#", "C", "C#", "D#", "F", "F#", "G"],
+            "fingering": []
+        },
+        {
+            "name": "G# Dominant Bebop - left hand",
+            "keys": ["G#", "A#", "C", "C#", "D#", "F", "F#", "G"],
+            "fingering": []
+        },
+
+        {
+            "name": "A Dominant Bebop - right hand",
+            "keys": ["A", "B", "C#", "D", "E", "F#", "G", "G#"],
+            "fingering": []
+        },
+        {
+            "name": "A Dominant Bebop - left hand",
+            "keys": ["A", "B", "C#", "D", "E", "F#", "G", "G#"],
+            "fingering": []
+        },
+
+        {
+            "name": "A# Dominant Bebop - right hand",
+            "keys": ["A#", "C", "D", "D#", "F", "G", "G#", "A"],
+            "fingering": []
+        },
+        {
+            "name": "A# Dominant Bebop - left hand",
+            "keys": ["A#", "C", "D", "D#", "F", "G", "G#", "A"],
+            "fingering": []
+        },
+
+        {
+            "name": "B Dominant Bebop - right hand",
+            "keys": ["B", "C#", "D#", "E", "F#", "G#", "A", "A#"],
+            "fingering": []
+        },
+        {
+            "name": "B Dominant Bebop - left hand",
+            "keys": ["B", "C#", "D#", "E", "F#", "G#", "A", "A#"],
+            "fingering": []
+        }
+    ]
+}
