@@ -1,0 +1,136 @@
+{
+    "title": "Phrygian Modal Scales",
+    "elements": [
+        {
+            "name": "C Phrygian Mode - right hand",
+            "keys": ["C", "C#", "D#", "F", "G", "G#", "A#"],
+            "fingering": []
+        },
+        {
+            "name": "C Phrygian Mode - left hand",
+            "keys": ["C", "C#", "D#", "F", "G", "G#", "A#"],
+            "fingering": []
+        },
+
+        {
+            "name": "C# Phrygian Mode - right hand",
+            "keys": ["C#", "D", "E", "F#", "G#", "A", "B"],
+            "fingering": []
+        },
+        {
+            "name": "C# Phrygian Mode - left hand",
+            "keys": ["C#", "D", "E", "F#", "G#", "A", "B"],
+            "fingering": []
+        },
+
+        {
+            "name": "D Phrygian Mode - right hand",
+            "keys": ["D", "D#", "F", "G", "A", "A#", "C"],
+            "fingering": []
+        },
+        {
+            "name": "D Phrygian Mode - left hand",
+            "keys": ["D", "D#", "F", "G", "A", "A#", "C"],
+            "fingering": []
+        },
+
+        {
+            "name": "D# Phrygian Mode - right hand",
+            "keys": ["D#", "E", "F#", "G#", "A#", "B", "C#"],
+            "fingering": []
+        },
+        {
+            "name": "D# Phrygian Mode - left hand",
+            "keys": ["D#", "E", "F#", "G#", "A#", "B", "C#"],
+            "fingering": []
+        },
+
+        {
+            "name": "E Phrygian Mode - right hand",
+            "keys": ["E", "F", "G", "A", "B", "C", "D"],
+            "fingering": []
+        },
+        {
+            "name": "E Phrygian Mode - left hand",
+            "keys": ["E", "F", "G", "A", "B", "C", "D"],
+            "fingering": []
+        },
+
+        {
+            "name": "F Phrygian Mode - right hand",
+            "keys": ["F", "F#", "G#", "A#", "C", "C#", "D#"],
+            "fingering": []
+        },
+        {
+            "name": "F Phrygian Mode - left hand",
+            "keys": ["F", "F#", "G#", "A#", "C", "C#", "D#"],
+            "fingering": []
+        },
+
+        {
+            "name": "F# Phrygian Mode - right hand",
+            "keys": ["F#", "G", "A", "B", "C#", "D", "E"],
+            "fingering": []
+        },
+        {
+            "name": "F# Phrygian Mode - left hand",
+            "keys": ["F#", "G", "A", "B", "C#", "D", "E"],
+            "fingering": []
+        },
+
+        {
+            "name": "G Phrygian Mode - right hand",
+            "keys": ["G", "G#", "A#", "C", "D", "D#", "F"],
+            "fingering": []
+        },
+        {
+            "name": "G Phrygian Mode - left hand",
+            "keys": ["G", "G#", "A#", "C", "D", "D#", "F"],
+            "fingering": []
+        },
+
+        {
+            "name": "G# Phrygian Mode - right hand",
+            "keys": ["G#", "A", "B", "C#", "D#", "E", "F#"],
+            "fingering": []
+        },
+        {
+            "name": "G# Phrygian Mode - left hand",
+            "keys": ["G#", "A", "B", "C#", "D#", "E", "F#"],
+            "fingering": []
+        },
+
+        {
+            "name": "A Phrygian Mode - right hand",
+            "keys": ["A", "A#", "C", "D", "E", "F", "G"],
+            "fingering": []
+        },
+        {
+            "name": "A Phrygian Mode - left hand",
+            "keys": ["A", "A#", "C", "D", "E", "F", "G"],
+            "fingering": []
+        },
+
+        {
+            "name": "A# Phrygian Mode - right hand",
+            "keys": ["A#", "B", "C#", "D#", "F", "F#", "G#"],
+            "fingering": []
+        },
+        {
+            "name": "A# Phrygian Mode - left hand",
+            "keys": ["A#", "B", "C#", "D#", "F", "F#", "G#"],
+            "fingering": []
+        },
+
+        {
+            "name": "B Phrygian Mode - right hand",
+            "keys": ["B", "C", "D", "E", "F#", "G", "A"],
+            "fingering": []
+        },
+        {
+            "name": "B Phrygian Mode - left hand",
+            "keys": ["B", "C", "D", "E", "F#", "G", "A"],
+            "fingering": []
+        }
+    ]
+}

@@ -1,0 +1,136 @@
+{
+    "title": "Ionian Modal Scales",
+    "elements": [
+        {
+            "name": "C Ionian Mode - right hand",
+            "keys": ["C", "D", "E", "F", "G", "A", "B"],
+            "fingering": []
+        },
+        {
+            "name": "C Ionian Mode - left hand",
+            "keys": ["C", "D", "E", "F", "G", "A", "B"],
+            "fingering": []
+        },
+
+        {
+            "name": "C# Ionian Mode - right hand",
+            "keys": ["C#", "D#", "F", "F#", "G#", "A#", "C"],
+            "fingering": []
+        },
+        {
+            "name": "C# Ionian Mode - left hand",
+            "keys": ["C#", "D#", "F", "F#", "G#", "A#", "C"],
+            "fingering": []
+        },
+
+        {
+            "name": "D Ionian Mode - right hand",
+            "keys": ["D", "E", "F#", "G", "A", "B", "C#"],
+            "fingering": []
+        },
+        {
+            "name": "D Ionian Mode - left hand",
+            "keys": ["D", "E", "F#", "G", "A", "B", "C#"],
+            "fingering": []
+        },
+
+        {
+            "name": "D# Ionian Mode - right hand",
+            "keys": ["D#", "F", "G", "G#", "A#", "C", "D"],
+            "fingering": []
+        },
+        {
+            "name": "D# Ionian Mode - left hand",
+            "keys": ["D#", "F", "G", "G#", "A#", "C", "D"],
+            "fingering": []
+        },
+
+        {
+            "name": "E Ionian Mode - right hand",
+            "keys": ["E", "F#", "G#", "A", "B", "C#", "D#"],
+            "fingering": []
+        },
+        {
+            "name": "E Ionian Mode - left hand",
+            "keys": ["E", "F#", "G#", "A", "B", "C#", "D#"],
+            "fingering": []
+        },
+
+        {
+            "name": "F Ionian Mode - right hand",
+            "keys": ["F", "G", "A", "A#", "C", "D", "E"],
+            "fingering": []
+        },
+        {
+            "name": "F Ionian Mode - left hand",
+            "keys": ["F", "G", "A", "A#", "C", "D", "E"],
+            "fingering": []
+        },
+
+        {
+            "name": "F# Ionian Mode - right hand",
+            "keys": ["F#", "G#", "A#", "B", "C#", "D#", "F"],
+            "fingering": []
+        },
+        {
+            "name": "F# Ionian Mode - left hand",
+            "keys": ["F#", "G#", "A#", "B", "C#", "D#", "F"],
+            "fingering": []
+        },
+
+        {
+            "name": "G Ionian Mode - right hand",
+            "keys": ["G", "A", "B", "C", "D", "E", "F#"],
+            "fingering": []
+        },
+        {
+            "name": "G Ionian Mode - left hand",
+            "keys": ["G", "A", "B", "C", "D", "E", "F#"],
+            "fingering": []
+        },
+
+        {
+            "name": "G# Ionian Mode - right hand",
+            "keys": ["G#", "A#", "C", "C#", "D#", "F", "G"],
+            "fingering": []
+        },
+        {
+            "name": "G# Ionian Mode - left hand",
+            "keys": ["G#", "A#", "C", "C#", "D#", "F", "G"],
+            "fingering": []
+        },
+
+        {
+            "name": "A Ionian Mode - right hand",
+            "keys": ["A", "B", "C#", "D", "E", "F#", "G#"],
+            "fingering": []
+        },
+        {
+            "name": "A Ionian Mode - left hand",
+            "keys": ["A", "B", "C#", "D", "E", "F#", "G#"],
+            "fingering": []
+        },
+
+        {
+            "name": "A# Ionian Mode - right hand",
+            "keys": ["A#", "C", "D", "D#", "F", "G", "A"],
+            "fingering": []
+        },
+        {
+            "name": "A# Ionian Mode - left hand",
+            "keys": ["A#", "C", "D", "D#", "F", "G", "A"],
+            "fingering": []
+        },
+
+        {
+            "name": "B Ionian Mode - right hand",
+            "keys": ["B", "C#", "D#", "E", "F#", "G#", "A#"],
+            "fingering": []
+        },
+        {
+            "name": "B Ionian Mode - left hand",
+            "keys": ["B", "C#", "D#", "E", "F#", "G#", "A#"],
+            "fingering": []
+        }
+    ]
+}

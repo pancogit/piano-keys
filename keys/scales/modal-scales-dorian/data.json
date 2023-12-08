@@ -1,0 +1,136 @@
+{
+    "title": "Dorian Modal Scales",
+    "elements": [
+        {
+            "name": "C Dorian Mode - right hand",
+            "keys": ["C", "D", "D#", "F", "G", "A", "A#"],
+            "fingering": []
+        },
+        {
+            "name": "C Dorian Mode - left hand",
+            "keys": ["C", "D", "D#", "F", "G", "A", "A#"],
+            "fingering": []
+        },
+
+        {
+            "name": "C# Dorian Mode - right hand",
+            "keys": ["C#", "D#", "E", "F#", "G#", "A#", "B"],
+            "fingering": []
+        },
+        {
+            "name": "C# Dorian Mode - left hand",
+            "keys": ["C#", "D#", "E", "F#", "G#", "A#", "B"],
+            "fingering": []
+        },
+
+        {
+            "name": "D Dorian Mode - right hand",
+            "keys": ["D", "E", "F", "G", "A", "B", "C"],
+            "fingering": []
+        },
+        {
+            "name": "D Dorian Mode - left hand",
+            "keys": ["D", "E", "F", "G", "A", "B", "C"],
+            "fingering": []
+        },
+
+        {
+            "name": "D# Dorian Mode - right hand",
+            "keys": ["D#", "F", "F#", "G#", "A#", "C", "C#"],
+            "fingering": []
+        },
+        {
+            "name": "D# Dorian Mode - left hand",
+            "keys": ["D#", "F", "F#", "G#", "A#", "C", "C#"],
+            "fingering": []
+        },
+
+        {
+            "name": "E Dorian Mode - right hand",
+            "keys": ["E", "F#", "G", "A", "B", "C#", "D"],
+            "fingering": []
+        },
+        {
+            "name": "E Dorian Mode - left hand",
+            "keys": ["E", "F#", "G", "A", "B", "C#", "D"],
+            "fingering": []
+        },
+
+        {
+            "name": "F Dorian Mode - right hand",
+            "keys": ["F", "G", "G#", "A#", "C", "D", "D#"],
+            "fingering": []
+        },
+        {
+            "name": "F Dorian Mode - left hand",
+            "keys": ["F", "G", "G#", "A#", "C", "D", "D#"],
+            "fingering": []
+        },
+
+        {
+            "name": "F# Dorian Mode - right hand",
+            "keys": ["F#", "G#", "A", "B", "C#", "D#", "E"],
+            "fingering": []
+        },
+        {
+            "name": "F# Dorian Mode - left hand",
+            "keys": ["F#", "G#", "A", "B", "C#", "D#", "E"],
+            "fingering": []
+        },
+
+        {
+            "name": "G Dorian Mode - right hand",
+            "keys": ["G", "A", "A#", "C", "D", "E", "F"],
+            "fingering": []
+        },
+        {
+            "name": "G Dorian Mode - left hand",
+            "keys": ["G", "A", "A#", "C", "D", "E", "F"],
+            "fingering": []
+        },
+
+        {
+            "name": "G# Dorian Mode - right hand",
+            "keys": ["G#", "A#", "B", "C#", "D#", "F", "F#"],
+            "fingering": []
+        },
+        {
+            "name": "G# Dorian Mode - left hand",
+            "keys": ["G#", "A#", "B", "C#", "D#", "F", "F#"],
+            "fingering": []
+        },
+
+        {
+            "name": "A Dorian Mode - right hand",
+            "keys": ["A", "B", "C", "D", "E", "F#", "G"],
+            "fingering": []
+        },
+        {
+            "name": "A Dorian Mode - left hand",
+            "keys": ["A", "B", "C", "D", "E", "F#", "G"],
+            "fingering": []
+        },
+
+        {
+            "name": "A# Dorian Mode - right hand",
+            "keys": ["A#", "C", "C#", "D#", "F", "G", "G#"],
+            "fingering": []
+        },
+        {
+            "name": "A# Dorian Mode - left hand",
+            "keys": ["A#", "C", "C#", "D#", "F", "G", "G#"],
+            "fingering": []
+        },
+
+        {
+            "name": "B Dorian Mode - right hand",
+            "keys": ["B", "C#", "D", "E", "F#", "G#", "A"],
+            "fingering": []
+        },
+        {
+            "name": "B Dorian Mode - left hand",
+            "keys": ["B", "C#", "D", "E", "F#", "G#", "A"],
+            "fingering": []
+        }
+    ]
+}
