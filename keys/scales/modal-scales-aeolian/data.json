@@ -1,0 +1,136 @@
+{
+    "title": "Aeolian Modal Scales",
+    "elements": [
+        {
+            "name": "C Aeolian Mode - right hand",
+            "keys": ["C", "D", "D#", "F", "G", "G#", "A#"],
+            "fingering": []
+        },
+        {
+            "name": "C Aeolian Mode - left hand",
+            "keys": ["C", "D", "D#", "F", "G", "G#", "A#"],
+            "fingering": []
+        },
+
+        {
+            "name": "C# Aeolian Mode - right hand",
+            "keys": ["C#", "D#", "E", "F#", "G#", "A", "B"],
+            "fingering": []
+        },
+        {
+            "name": "C# Aeolian Mode - left hand",
+            "keys": ["C#", "D#", "E", "F#", "G#", "A", "B"],
+            "fingering": []
+        },
+
+        {
+            "name": "D Aeolian Mode - right hand",
+            "keys": ["D", "E", "F", "G", "A", "A#", "C"],
+            "fingering": []
+        },
+        {
+            "name": "D Aeolian Mode - left hand",
+            "keys": ["D", "E", "F", "G", "A", "A#", "C"],
+            "fingering": []
+        },
+
+        {
+            "name": "D# Aeolian Mode - right hand",
+            "keys": ["D#", "F", "F#", "G#", "A#", "B", "C#"],
+            "fingering": []
+        },
+        {
+            "name": "D# Aeolian Mode - left hand",
+            "keys": ["D#", "F", "F#", "G#", "A#", "B", "C#"],
+            "fingering": []
+        },
+
+        {
+            "name": "E Aeolian Mode - right hand",
+            "keys": ["E", "F#", "G", "A", "B", "C", "D"],
+            "fingering": []
+        },
+        {
+            "name": "E Aeolian Mode - left hand",
+            "keys": ["E", "F#", "G", "A", "B", "C", "D"],
+            "fingering": []
+        },
+
+        {
+            "name": "F Aeolian Mode - right hand",
+            "keys": ["F", "G", "G#", "A#", "C", "C#", "D#"],
+            "fingering": []
+        },
+        {
+            "name": "F Aeolian Mode - left hand",
+            "keys": ["F", "G", "G#", "A#", "C", "C#", "D#"],
+            "fingering": []
+        },
+
+        {
+            "name": "F# Aeolian Mode - right hand",
+            "keys": ["F#", "G#", "A", "B", "C#", "D", "E"],
+            "fingering": []
+        },
+        {
+            "name": "F# Aeolian Mode - left hand",
+            "keys": ["F#", "G#", "A", "B", "C#", "D", "E"],
+            "fingering": []
+        },
+
+        {
+            "name": "G Aeolian Mode - right hand",
+            "keys": ["G", "A", "A#", "C", "D", "D#", "F"],
+            "fingering": []
+        },
+        {
+            "name": "G Aeolian Mode - left hand",
+            "keys": ["G", "A", "A#", "C", "D", "D#", "F"],
+            "fingering": []
+        },
+
+        {
+            "name": "G# Aeolian Mode - right hand",
+            "keys": ["G#", "A#", "B", "C#", "D#", "E", "F#"],
+            "fingering": []
+        },
+        {
+            "name": "G# Aeolian Mode - left hand",
+            "keys": ["G#", "A#", "B", "C#", "D#", "E", "F#"],
+            "fingering": []
+        },
+
+        {
+            "name": "A Aeolian Mode - right hand",
+            "keys": ["A", "B", "C", "D", "E", "F", "G"],
+            "fingering": []
+        },
+        {
+            "name": "A Aeolian Mode - left hand",
+            "keys": ["A", "B", "C", "D", "E", "F", "G"],
+            "fingering": []
+        },
+
+        {
+            "name": "A# Aeolian Mode - right hand",
+            "keys": ["A#", "C", "C#", "D#", "F", "F#", "G#"],
+            "fingering": []
+        },
+        {
+            "name": "A# Aeolian Mode - left hand",
+            "keys": ["A#", "C", "C#", "D#", "F", "F#", "G#"],
+            "fingering": []
+        },
+
+        {
+            "name": "B Aeolian Mode - right hand",
+            "keys": ["B", "C#", "D", "E", "F#", "G", "A"],
+            "fingering": []
+        },
+        {
+            "name": "B Aeolian Mode - left hand",
+            "keys": ["B", "C#", "D", "E", "F#", "G", "A"],
+            "fingering": []
+        }
+    ]
+}

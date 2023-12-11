@@ -1,0 +1,136 @@
+{
+    "title": "Mixolydian Modal Scales",
+    "elements": [
+        {
+            "name": "C Mixolydian Mode - right hand",
+            "keys": ["C", "D", "E", "F", "G", "A", "A#"],
+            "fingering": []
+        },
+        {
+            "name": "C Mixolydian Mode - left hand",
+            "keys": ["C", "D", "E", "F", "G", "A", "A#"],
+            "fingering": []
+        },
+
+        {
+            "name": "C# Mixolydian Mode - right hand",
+            "keys": ["C#", "D#", "F", "F#", "G#", "A#", "B"],
+            "fingering": []
+        },
+        {
+            "name": "C# Mixolydian Mode - left hand",
+            "keys": ["C#", "D#", "F", "F#", "G#", "A#", "B"],
+            "fingering": []
+        },
+
+        {
+            "name": "D Mixolydian Mode - right hand",
+            "keys": ["D", "E", "F#", "G", "A", "B", "C"],
+            "fingering": []
+        },
+        {
+            "name": "D Mixolydian Mode - left hand",
+            "keys": ["D", "E", "F#", "G", "A", "B", "C"],
+            "fingering": []
+        },
+
+        {
+            "name": "D# Mixolydian Mode - right hand",
+            "keys": ["D#", "F", "G", "G#", "A#", "C", "C#"],
+            "fingering": []
+        },
+        {
+            "name": "D# Mixolydian Mode - left hand",
+            "keys": ["D#", "F", "G", "G#", "A#", "C", "C#"],
+            "fingering": []
+        },
+
+        {
+            "name": "E Mixolydian Mode - right hand",
+            "keys": ["E", "F#", "G#", "A", "B", "C#", "D"],
+            "fingering": []
+        },
+        {
+            "name": "E Mixolydian Mode - left hand",
+            "keys": ["E", "F#", "G#", "A", "B", "C#", "D"],
+            "fingering": []
+        },
+
+        {
+            "name": "F Mixolydian Mode - right hand",
+            "keys": ["F", "G", "A", "A#", "C", "D", "D#"],
+            "fingering": []
+        },
+        {
+            "name": "F Mixolydian Mode - left hand",
+            "keys": ["F", "G", "A", "A#", "C", "D", "D#"],
+            "fingering": []
+        },
+
+        {
+            "name": "F# Mixolydian Mode - right hand",
+            "keys": ["F#", "G#", "A#", "B", "C#", "D#", "E"],
+            "fingering": []
+        },
+        {
+            "name": "F# Mixolydian Mode - left hand",
+            "keys": ["F#", "G#", "A#", "B", "C#", "D#", "E"],
+            "fingering": []
+        },
+
+        {
+            "name": "G Mixolydian Mode - right hand",
+            "keys": ["G", "A", "B", "C", "D", "E", "F"],
+            "fingering": []
+        },
+        {
+            "name": "G Mixolydian Mode - left hand",
+            "keys": ["G", "A", "B", "C", "D", "E", "F"],
+            "fingering": []
+        },
+
+        {
+            "name": "G# Mixolydian Mode - right hand",
+            "keys": ["G#", "A#", "C", "C#", "D#", "F", "F#"],
+            "fingering": []
+        },
+        {
+            "name": "G# Mixolydian Mode - left hand",
+            "keys": ["G#", "A#", "C", "C#", "D#", "F", "F#"],
+            "fingering": []
+        },
+
+        {
+            "name": "A Mixolydian Mode - right hand",
+            "keys": ["A", "B", "C#", "D", "E", "F#", "G"],
+            "fingering": []
+        },
+        {
+            "name": "A Mixolydian Mode - left hand",
+            "keys": ["A", "B", "C#", "D", "E", "F#", "G"],
+            "fingering": []
+        },
+
+        {
+            "name": "A# Mixolydian Mode - right hand",
+            "keys": ["A#", "C", "D", "D#", "F", "G", "G#"],
+            "fingering": []
+        },
+        {
+            "name": "A# Mixolydian Mode - left hand",
+            "keys": ["A#", "C", "D", "D#", "F", "G", "G#"],
+            "fingering": []
+        },
+
+        {
+            "name": "B Mixolydian Mode - right hand",
+            "keys": ["B", "C#", "D#", "E", "F#", "G#", "A"],
+            "fingering": []
+        },
+        {
+            "name": "B Mixolydian Mode - left hand",
+            "keys": ["B", "C#", "D#", "E", "F#", "G#", "A"],
+            "fingering": []
+        }
+    ]
+}

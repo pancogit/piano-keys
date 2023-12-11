@@ -1,0 +1,136 @@
+{
+    "title": "Lydian Modal Scales",
+    "elements": [
+        {
+            "name": "C Lydian Mode - right hand",
+            "keys": ["C", "D", "E", "F#", "G", "A", "B"],
+            "fingering": []
+        },
+        {
+            "name": "C Lydian Mode - left hand",
+            "keys": ["C", "D", "E", "F#", "G", "A", "B"],
+            "fingering": []
+        },
+
+        {
+            "name": "C# Lydian Mode - right hand",
+            "keys": ["C#", "D#", "F", "G", "G#", "A#", "C"],
+            "fingering": []
+        },
+        {
+            "name": "C# Lydian Mode - left hand",
+            "keys": ["C#", "D#", "F", "G", "G#", "A#", "C"],
+            "fingering": []
+        },
+
+        {
+            "name": "D Lydian Mode - right hand",
+            "keys": ["D", "E", "F#", "G#", "A", "B", "C#"],
+            "fingering": []
+        },
+        {
+            "name": "D Lydian Mode - left hand",
+            "keys": ["D", "E", "F#", "G#", "A", "B", "C#"],
+            "fingering": []
+        },
+
+        {
+            "name": "D# Lydian Mode - right hand",
+            "keys": ["D#", "F", "G", "A", "A#", "C", "D"],
+            "fingering": []
+        },
+        {
+            "name": "D# Lydian Mode - left hand",
+            "keys": ["D#", "F", "G", "A", "A#", "C", "D"],
+            "fingering": []
+        },
+
+        {
+            "name": "E Lydian Mode - right hand",
+            "keys": ["E", "F#", "G#", "A#", "B", "C#", "D#"],
+            "fingering": []
+        },
+        {
+            "name": "E Lydian Mode - left hand",
+            "keys": ["E", "F#", "G#", "A#", "B", "C#", "D#"],
+            "fingering": []
+        },
+
+        {
+            "name": "F Lydian Mode - right hand",
+            "keys": ["F", "G", "A", "B", "C", "D", "E"],
+            "fingering": []
+        },
+        {
+            "name": "F Lydian Mode - left hand",
+            "keys": ["F", "G", "A", "B", "C", "D", "E"],
+            "fingering": []
+        },
+
+        {
+            "name": "F# Lydian Mode - right hand",
+            "keys": ["F#", "G#", "A#", "C", "C#", "D#", "F"],
+            "fingering": []
+        },
+        {
+            "name": "F# Lydian Mode - left hand",
+            "keys": ["F#", "G#", "A#", "C", "C#", "D#", "F"],
+            "fingering": []
+        },
+
+        {
+            "name": "G Lydian Mode - right hand",
+            "keys": ["G", "A", "B", "C#", "D", "E", "F#"],
+            "fingering": []
+        },
+        {
+            "name": "G Lydian Mode - left hand",
+            "keys": ["G", "A", "B", "C#", "D", "E", "F#"],
+            "fingering": []
+        },
+
+        {
+            "name": "G# Lydian Mode - right hand",
+            "keys": ["G#", "A#", "C", "D", "D#", "F", "G"],
+            "fingering": []
+        },
+        {
+            "name": "G# Lydian Mode - left hand",
+            "keys": ["G#", "A#", "C", "D", "D#", "F", "G"],
+            "fingering": []
+        },
+
+        {
+            "name": "A Lydian Mode - right hand",
+            "keys": ["A", "B", "C#", "D#", "E", "F#", "G#"],
+            "fingering": []
+        },
+        {
+            "name": "A Lydian Mode - left hand",
+            "keys": ["A", "B", "C#", "D#", "E", "F#", "G#"],
+            "fingering": []
+        },
+
+        {
+            "name": "A# Lydian Mode - right hand",
+            "keys": ["A#", "C", "D", "E", "F", "G", "A"],
+            "fingering": []
+        },
+        {
+            "name": "A# Lydian Mode - left hand",
+            "keys": ["A#", "C", "D", "E", "F", "G", "A"],
+            "fingering": []
+        },
+
+        {
+            "name": "B Lydian Mode - right hand",
+            "keys": ["B", "C#", "D#", "F", "F#", "G#", "A#"],
+            "fingering": []
+        },
+        {
+            "name": "B Lydian Mode - left hand",
+            "keys": ["B", "C#", "D#", "F", "F#", "G#", "A#"],
+            "fingering": []
+        }
+    ]
+}

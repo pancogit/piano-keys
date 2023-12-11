@@ -1,0 +1,136 @@
+{
+    "title": "Locrian Modal Scales",
+    "elements": [
+        {
+            "name": "C Locrian Mode - right hand",
+            "keys": ["C", "C#", "D#", "F", "F#", "G#", "A#"],
+            "fingering": []
+        },
+        {
+            "name": "C Locrian Mode - left hand",
+            "keys": ["C", "C#", "D#", "F", "F#", "G#", "A#"],
+            "fingering": []
+        },
+
+        {
+            "name": "C# Locrian Mode - right hand",
+            "keys": ["C#", "D", "E", "F#", "G", "A", "B"],
+            "fingering": []
+        },
+        {
+            "name": "C# Locrian Mode - left hand",
+            "keys": ["C#", "D", "E", "F#", "G", "A", "B"],
+            "fingering": []
+        },
+
+        {
+            "name": "D Locrian Mode - right hand",
+            "keys": ["D", "D#", "F", "G", "G#", "A#", "C"],
+            "fingering": []
+        },
+        {
+            "name": "D Locrian Mode - left hand",
+            "keys": ["D", "D#", "F", "G", "G#", "A#", "C"],
+            "fingering": []
+        },
+
+        {
+            "name": "D# Locrian Mode - right hand",
+            "keys": ["D#", "E", "F#", "G#", "A", "B", "C#"],
+            "fingering": []
+        },
+        {
+            "name": "D# Locrian Mode - left hand",
+            "keys": ["D#", "E", "F#", "G#", "A", "B", "C#"],
+            "fingering": []
+        },
+
+        {
+            "name": "E Locrian Mode - right hand",
+            "keys": ["E", "F", "G", "A", "A#", "C", "D"],
+            "fingering": []
+        },
+        {
+            "name": "E Locrian Mode - left hand",
+            "keys": ["E", "F", "G", "A", "A#", "C", "D"],
+            "fingering": []
+        },
+
+        {
+            "name": "F Locrian Mode - right hand",
+            "keys": ["F", "F#", "G#", "A#", "B", "C#", "D#"],
+            "fingering": []
+        },
+        {
+            "name": "F Locrian Mode - left hand",
+            "keys": ["F", "F#", "G#", "A#", "B", "C#", "D#"],
+            "fingering": []
+        },
+
+        {
+            "name": "F# Locrian Mode - right hand",
+            "keys": ["F#", "G", "A", "B", "C", "D", "E"],
+            "fingering": []
+        },
+        {
+            "name": "F# Locrian Mode - left hand",
+            "keys": ["F#", "G", "A", "B", "C", "D", "E"],
+            "fingering": []
+        },
+
+        {
+            "name": "G Locrian Mode - right hand",
+            "keys": ["G", "G#", "A#", "C", "C#", "D#", "F"],
+            "fingering": []
+        },
+        {
+            "name": "G Locrian Mode - left hand",
+            "keys": ["G", "G#", "A#", "C", "C#", "D#", "F"],
+            "fingering": []
+        },
+
+        {
+            "name": "G# Locrian Mode - right hand",
+            "keys": ["G#", "A", "B", "C#", "D", "E", "F#"],
+            "fingering": []
+        },
+        {
+            "name": "G# Locrian Mode - left hand",
+            "keys": ["G#", "A", "B", "C#", "D", "E", "F#"],
+            "fingering": []
+        },
+
+        {
+            "name": "A Locrian Mode - right hand",
+            "keys": ["A", "A#", "C", "D", "D#", "F", "G"],
+            "fingering": []
+        },
+        {
+            "name": "A Locrian Mode - left hand",
+            "keys": ["A", "A#", "C", "D", "D#", "F", "G"],
+            "fingering": []
+        },
+
+        {
+            "name": "A# Locrian Mode - right hand",
+            "keys": ["A#", "B", "C#", "D#", "E", "F#", "G#"],
+            "fingering": []
+        },
+        {
+            "name": "A# Locrian Mode - left hand",
+            "keys": ["A#", "B", "C#", "D#", "E", "F#", "G#"],
+            "fingering": []
+        },
+
+        {
+            "name": "B Locrian Mode - right hand",
+            "keys": ["B", "C", "D", "E", "F", "G", "A"],
+            "fingering": []
+        },
+        {
+            "name": "B Locrian Mode - left hand",
+            "keys": ["B", "C", "D", "E", "F", "G", "A"],
+            "fingering": []
+        }
+    ]
+}
